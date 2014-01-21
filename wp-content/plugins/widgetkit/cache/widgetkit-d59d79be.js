@@ -1,0 +1,1 @@
+var widgetkitajax="http://grand.dev/wp-admin/admin-ajax.php?action=widgetkit&ajax=1";
