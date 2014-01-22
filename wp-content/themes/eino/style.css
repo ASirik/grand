@@ -2517,3 +2517,8 @@ html {
 }
 
 }
+
+
+.foto-galery_1 p{
+    float:left;
+}

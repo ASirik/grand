@@ -12,6 +12,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+ <link rel="stylesheet" href="custom.css"/>
 <?php wp_head(); // wp_head ?>
 
 </head>
@@ -48,7 +49,9 @@
 					<?php } ?>
 					
 					<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
-					
+					<div id="logo2">
+                        <img src="/wp-content/themes/eino/images/logo1.jpg"></img>
+					</div>
 				</hgroup><!-- #branding -->
 				
 			<?php get_sidebar( 'header' ); // Loads the sidebar-header.php template. ?>
