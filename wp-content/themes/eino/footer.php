@@ -1,7 +1,9 @@
 			<?php get_sidebar( 'primary' ); // Loads the sidebar-primary.php template. ?>
 			
 			<?php get_sidebar( 'secondary' ); // Loads the sidebar-secondary.php template. ?>
-			
+            <div id="decor">
+                <img src="/wp-content/themes/eino/images/dekor.jpg" />
+            </div>
 			</div><!-- .wrap -->
 
 		</div><!-- #main -->
