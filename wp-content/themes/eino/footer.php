@@ -2,7 +2,7 @@
 			
 			<?php get_sidebar( 'secondary' ); // Loads the sidebar-secondary.php template. ?>
             <div id="decor">
-                <img src="/wp-content/themes/eino/images/dekor.jpg" />
+                <img src="/wp-content/themes/eino/images/dec_down2.jpg" />
             </div>
 			</div><!-- .wrap -->
 
