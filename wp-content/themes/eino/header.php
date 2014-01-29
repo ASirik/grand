@@ -50,7 +50,7 @@
 					
 					<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
 					<div id="logo2">
-                        <img src="/wp-content/themes/eino/images/logo1.jpg" />
+                        <img src="/wp-content/themes/eino/images/logo2-bg.png" />
 					</div>
 				</hgroup><!-- #branding -->
 				
