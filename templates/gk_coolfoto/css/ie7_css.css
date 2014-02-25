@@ -1,0 +1,34 @@
+/*--------------------------------------------------------------
+# Coolfoto - June 2009 (for Joomla 1.5)
+# Copyright (C) 2007-2009 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com  
+---------------------------------------------------------------*/
+	
+/* Rules to fixing problems in IE7 */
+body{
+	padding-bottom:10px;
+}
+div#wrapper_menu ul{
+	list-style-image:none!important;
+}
+div#wrapper_top{
+	min-height:87px;
+}
+div#wrapper_banner div.moduletable_content,
+div.wrapper_banner_helper{
+	position:relative!important;
+}
+div#wrapper_menu li.level1 a{
+	display:block;
+}
+div#wrapper_menu li.level1 li a{
+	margin-top: 0px!important;
+}
+.us_width-20{ width:19.99%!important; }
+.us_width-25{ width:24.99%!important; }
+.us_width-33{ width:32.99%!important; }
+.us_width-33:first-child{ width:33.99%!important; }
+.us_width-50{ width:49.99%!important; }
+.us_width-100{ width:100%!important; }

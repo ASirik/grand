@@ -1,0 +1,604 @@
+/*--------------------------------------------------------------
+# Coolfoto - June 2009 (for Joomla 1.5)
+# Copyright (C) 2007-2009 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com  
+---------------------------------------------------------------*/
+	
+/* universal set of reset styles
+---------------------------------------------------------------*/
+html,body,div,span,applet,object,iframe,caption,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,dl,dt,dd,ol,ul,li,fieldset,form,label,legend {vertical-align: baseline;font-size: 100%;outline: 0;padding: 0;margin: 0;border: 0;}
+/* remember to define focus styles! */
+:focus {outline: 0;}
+body {background: white;line-height: 1;color: black;}
+ol,ul {list-style: none;}
+/* tables still need cellspacing="0" in the markup */
+table{border-collapse: separate;border-spacing: 0;}
+caption,th,td {font-weight: normal;}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before,blockquote:after,q:before,q:after {content: "";}
+blockquote,q {quotes: "" "";}
+/* ||| the end |||*/
+/* ||| set of clearing floats |||*/	
+.clearfix:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.clearfix {display: inline-block;}
+.clr {font-size : 1px;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+.clear {clear: both;}
+/* End hide from IE-mac */
+/* ------------------------ the end ----------------------------*/
+html {
+	height:100%;
+	margin-bottom:1px;
+	border-bottom:1px solid #f5f5f5;
+}
+body {
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-family:Arial , Verdana, sans-serif;
+	line-height: 150%;
+}
+/* Basic link styles 
+---------------------------------------------------------------*/
+a{
+	outline:none;
+	cursor:pointer;
+}
+a:link,
+a:visited,
+a:active{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+}
+/* Basic image style 
+----------------------------------------------------------------*/
+img{
+	border:none;
+	text-decoration:none;
+}
+/* Basic lists styles 
+----------------------------------------------------------------*/
+ul{
+	padding:0 6px 6px 6px;
+	margin:0 12px;
+}
+ul ul{
+	padding-bottom:0px;
+}
+ul li{
+	padding-left:4px;
+	line-height:100%; 
+	margin:5px 0;
+}
+ul li a{
+	text-decoration: none;
+}
+ol li{
+	line-height:170%;
+}
+dl#system-message dd ul li{
+	border: none !important;
+}
+/* Basic heading styles 
+-----------------------------------------------------------------*/
+th {
+	padding:4px;
+	text-align:left;
+}
+h1 { font-size:200%; }
+h2 { font-size:175%; }
+h3 { font-size:150%; }
+h4 { font-size:125%; }
+h5 { font-size:115%; }
+p, pre, blockquote, h1, h2, h3, h4, h5, h6{
+	margin:1em 0;
+	padding:0;
+}
+/* Basic form styles 
+-----------------------------------------------------------------*/
+fieldset{
+	border:none;
+	padding:5px 0;
+}
+fieldset a{
+	font-weight:bold;
+}
+input, select, button{
+	font-size:11px;
+	font-weight:normal;
+}
+/* Basic HR-line style 
+-----------------------------------------------------------------*/
+hr {
+	border-right: 0;
+	border-left: 0;
+	border-bottom: 0;
+	height: 1px;
+}
+/* Basic positioning classes 
+-----------------------------------------------------------------*/
+.clearfix{ clear: both; }
+.lf { float: left; }
+.rf { float: right; }
+/* Logo 
+------------------------------------------------------------*/
+a#logo, 
+a#logo_styled {
+	float:left;
+	display:block;
+	margin-top: 11px;
+}
+a#logo_styled{
+	/* 
+		Here you can change width or height of your logo 
+		if you've disabled option "logo as image"
+	*/
+	width: 195px;
+	height: 43px; 
+}
+/* Basic wrapper styles 
+-----------------------------------------------------------------*/
+div#wrapper_header1{
+	overflow: hidden;
+}
+div#wrapper_header2{
+	overflow: hidden;	
+}
+div#wrapper_header3{
+	overflow: hidden;
+}
+div#wrapper_main{
+	width:100%;
+	margin:0 auto;	
+	padding-bottom:20px;
+	position:relative;
+	font:normal 12px  Arial, Verdana, sans-serif; /* Basic font size: 12px, line-height: 15px */
+}
+/*menu*/
+div#menu_center{
+	width: 980px;
+	margin:0 auto;
+}
+div#wrapper_menu{
+	width:100%;
+	height:79px;
+	display:block;
+	margin-bottom:-10px;
+	z-index:1000;
+	left:0;
+	position:absolute;
+}
+div#horiz-menu{
+	margin:13px -15px 0 0;
+	display:block;
+	float:right;
+	line-height: 79px;
+	font-weight: bold;
+	font-size: 11px;
+}
+div#horiz-menu ul.menu li.level1:first-child{
+	background:none;
+}
+div#wrapper_menu ul li:hover li,
+div#wrapper_menu ul li:hover li a,
+div#wrapper_menu ul li:hover li span{
+	height: 30px;
+	display:block;
+	line-height: 30px;
+}
+/*buttons*/
+div#buttons{
+	width:auto;
+	float:left;
+	margin-top: 25px;
+	font-size: 10px;
+}
+span#login_btn,
+span#register_btn{
+	padding-right:13px;
+	height:19px;
+	display:block;
+	float:left;
+	margin-left: 5px;
+}
+span#login_btn a,
+span#register_btn a{
+	padding-left:13px;
+	display:block;
+	height:19px;
+	line-height:19px;
+}
+
+/*header*/
+div#wrapper_header{
+	margin:0 auto;
+	width:980px;
+	padding:80px 0 20px 0;
+}
+div#header1{
+	float: left;
+	margin-top: 20px;
+}
+div#header2{
+	float: right;
+	margin-top: 20px;
+}
+div#header3{
+	float: left;
+}
+div#header4{
+	float: right;
+}
+div#header_modules1{
+	margin-top:20px;
+}
+div#header_modules2{
+	margin-top:25px;
+}
+div#breadcrumb{
+	height: 45px;
+}
+/*content*/
+div#wrapper_content{
+	width:980px;
+	margin:0 auto 15px auto;
+}
+div#right{
+	float:right;
+	margin: 25px 0 0 10px;
+}
+div#left{
+	float:left;
+	margin: 25px 10px 0 0;
+}
+div#inset{
+	float:left;
+	margin: 25px 0 0 10px;
+}
+div#component{
+	float:left;
+	margin: 25px 0 0 0;
+}
+/*bottom*/
+div#bottom_center{
+	margin: 0 auto;
+	padding-top:20px;
+	width: 980px;
+	overflow:hidden;
+}
+/*bottom bar*/
+div#bottom_bar{
+	height:88px;
+	margin-bottom:-10px;
+}
+div#bottom_bar_center{
+	height:60px;
+	padding-top: 28px;
+	margin:0 auto;
+	width:980px;
+}
+div#social_icons{
+	float:right;
+}
+div#social_icons a{
+	float:right;
+	display:block;
+	width:32px;
+	height:32px;
+	margin-left:9px;
+}
+/*footer*/
+div#wrapper_footer{
+	margin-top:10px;
+	min-height:38px;
+}
+
+/* set the width of user modules 
+-------------------------------------------------------------------*/ 
+
+.us_width-20,
+.us_width-25,
+.us_width-33, 
+.us_width-50{
+	display:block;
+	float:left;
+}
+.us_width-20{ width:20%; }
+.us_width-25{ width:25%; }
+.us_width-33{ width:33%; }
+.us_width-50{ width:50%; }
+.us_width-100{ width:100%; }
+
+/* 
+	Suffixes 
+	------------------------------
+	Available suffixes:
+	* _color
+	* _clear
+	* _menu
+	* _text
+	* _bg (only in wrapper_header)	
+*/
+div.moduletable,
+div.moduletable_clear,
+div.moduletable_menu,
+div.moduletable_text, 
+div.moduletable_color{
+	padding-bottom:10px;
+}
+div.moduletable h3,
+div.moduletable_clear h3,
+div.moduletable_menu h3,
+div.moduletable_text h3, 
+div.moduletable_color h3{
+	margin:0 0 15px 10px;
+	height:45px;
+	width:auto;
+	line-height: 45px;
+	text-indent: 14px;
+	font-weight: normal;
+	font-size:14px;
+}
+div.moduletable .moduletable_content,
+div.moduletable_clear .moduletable_content,
+div.moduletable_menu .moduletable_content,
+div.moduletable_text .moduletable_content, 
+div.moduletable_color .moduletable_content{
+	margin:0 0 0 10px;
+	font-size: 12px;
+}
+.us_width-100 .moduletable_content{
+	margin: 0!important;
+}
+div.us_width-20:first-child .moduletable_content,
+div.us_width-25:first-child .moduletable_content,
+div.us_width-33:first-child .moduletable_content,
+div.us_width-50:first-child .moduletable_content,
+div.us_width-100:first-child .moduletable_content,
+div.module_wrap .moduletable_content,
+div#left .moduletable_content,
+div#right .moduletable_content,
+div#inset .moduletable_content{
+	margin: 0;	
+}
+div.us_width-20:first-child h3,
+div.us_width-25:first-child h3,
+div.us_width-33:first-child h3,
+div.us_width-50:first-child h3,
+div.us_width-100:first-child h3,
+div.module_wrap h3,
+div#left h3,
+div#right h3,
+div#inset h3{
+	margin: 0 0 15px 0;
+}
+div.moduletable_clear{
+	background: none;
+	border:0;
+	padding:0;
+}
+
+/* header */
+
+div#wrapper_header div.moduletable h3,
+div#wrapper_header div.moduletable_bg h3,
+div#wrapper_header div.moduletable_clear h3,
+div#wrapper_header div.moduletable_menu h3{
+	font-size: 16px;
+	font-weight: bold;
+	height: 24px;
+	line-height:24px;
+	margin: 0;
+	text-indent:0;
+	background:none;
+}
+div#wrapper_header div.moduletable .moduletable_content,
+div#wrapper_header div.moduletable_bg .moduletable_content,
+div#wrapper_header div.moduletable_clear .moduletable_content,
+div#wrapper_header div.moduletable_menu .moduletable_content{
+	margin:10px 0 0 0;
+	background:none;
+}
+div#wrapper_header div.moduletable_bg .moduletable_content{
+	padding: 5px;
+}
+div#wrapper_header ul{
+	margin:0;
+	padding:0;
+}
+div#wrapper_header ul li{
+	line-height:22px;
+	padding-left: 30px;
+}
+div#wrapper_header ul.menu{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+div#wrapper_header ul.menu li,
+div#wrapper_header ul.menu li a{
+	padding:0;
+	font-size:12px;
+	line-height: 24px;
+	background:none;
+	text-decoration:none;
+}
+div#wrapper_header ul.menu li:first-child{
+	border-top:none;
+}
+div#wrapper_header ul.menu li a{
+	border-top:none;
+}
+div#wrapper_header ul.menu li{
+	padding-left:26px;
+}
+div#wrapper_header ul.menu ul li{
+	padding-left: 20px;
+}
+div#wrapper_header ul.menu li:hover,
+div#wrapper_header ul.menu li a:hover{
+	text-decoration:none;
+}
+/* wrapper content */
+/* lists */
+/* standard */
+div#wrapper_bottom div.moduletable_content ul,
+div#wrapper_content div.moduletable_content ul{
+	margin:0;
+	padding:0;
+}
+div#wrapper_content div.moduletable_content ul li{
+	margin:0;
+	padding:0;
+	min-height:38px;
+	line-height:38px;
+	padding-left:16px;
+}
+div#wrapper_bottom div.moduletable_content ul li:first-child,
+div#wrapper_content div.moduletable_content ul li:first-child{
+	border-top:none;
+}
+/*bottom list*/
+div#wrapper_bottom div.moduletable_content ul li{
+	margin:0;
+	padding:0;
+	min-height:38px;
+	line-height:38px;
+	padding-left:16px;
+}
+/*mainbody list*/
+div#mainbody_wrapper ul li{
+	padding-left:16px;
+}
+
+/* Search module */
+
+div.search {
+	width:auto;
+	float:left;
+}
+div.search input#mod_search_searchword{
+	width: 208px;
+	height: 21px;
+	font-size: 11px;
+	padding:6px 0 0 5px;
+}
+
+/* Restrictions
+---------------------------------------------------------------*/
+
+/* --- Header --- */
+/*search module*/
+div#wrapper_header div.search input#mod_search_searchword{
+	border:none;
+	display:block;
+	float:left;
+	width: 375px;
+	height:36px;
+	padding:10px 0 0 12px;
+	font-size:20px;
+}
+div#wrapper_header div.search input.button{
+	height:46px;
+	width:55px;
+	margin-left: 12px;
+	text-indent:-999em;
+	display:block;
+	float:left;
+}
+
+/* --- Bottom --- */
+
+div#wrapper_bottom div.moduletable h3,
+div#wrapper_bottom div.moduletable_text h3,
+div#wrapper_bottom div.moduletable_clear h3,
+div#wrapper_bottom div.moduletable_menu h3{
+	font-size: 14px;
+	font-weight: normal;
+	height: 24px;
+	line-height:24px;
+	text-indent:0;
+	background:none;
+}
+
+/* --- Bottom bar --- */
+div#search_bottom{
+	float:left;
+	line-height:32px;
+	color:#999;
+	width:auto;
+}
+div#search_bottom .moduletable_content{
+	margin: 0;
+}
+
+/* --- Footer --- */
+
+div#footer_menu{
+	float:left;
+	width: auto;
+	margin: 2px 0 0 -23px;
+}
+div#footer_menu ul li{
+	background:none;
+	display: inline;
+	padding:7px;
+}
+div#footer_center{
+	width: 980px;
+	margin: 0 auto;
+	padding-top: 12px;
+	font-size:11px;
+	min-height:26px;
+}
+div#stylearea,
+div#informations{
+	float: right;
+	width: auto;	
+}
+div#informations{
+	margin-right:20px;
+}
+/* System messages */
+#system-message{
+	margin-top:25px;
+}
+#system-message dt.error{
+	display:none;
+	background-image:none!important;
+	padding:0!important;
+}
+#system-message dd{
+	font-weight:bold;
+	margin:0;
+	text-indent:30px;
+	background-image:none!important;
+	padding:0!important;
+}
+#system-message dd.error ul{
+	margin-bottom:0;
+}
+dl#system-message ul{
+	margin:0;
+}
+#system-message dd ul{
+	list-style-type:none;
+	margin-bottom:10px;
+	padding:10px;
+}
+/*joomla classes*/
+h1.componentheading,
+.componentheading{
+	line-height:45px;
+	margin-bottom:10px;
+	font-size:14px;
+	text-indent:14px;
+	font-weight:normal!important;
+	height:45px!important;
+}

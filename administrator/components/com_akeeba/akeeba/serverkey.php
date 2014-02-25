@@ -1,0 +1,1 @@
+<?php defined('AKEEBAENGINE') or die(); define('AKEEBA_SERVERKEY', 'NzE0MTBjNDdiZmIwODU5OTNjOWUzYjI3NDM2MjJlZWY='); ?>

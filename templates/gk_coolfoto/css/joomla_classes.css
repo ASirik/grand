@@ -1,0 +1,304 @@
+/*--------------------------------------------------------------
+# Coolfoto - June 2009 (for Joomla 1.5)
+# Copyright (C) 2007-2009 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com  
+---------------------------------------------------------------*/
+
+/* Joomla style
+--------------------------------------------------------- */
+.article_separator {
+	clear:both;
+	display:block;
+	height:10px;
+	margin-bottom: 10px;
+}
+.article_column {
+}
+.column_separator {
+	padding: 0 0 0 25px;
+}
+h2.contentheading,
+.contentheading,
+table.blog .contentheading {
+	height:40px;
+	line-height:40px;
+	font-size:22px;
+	color:#555;
+	font-weight:normal;
+}
+.contentheading,
+table.blog .contentheading {
+	font-size:22px!important;
+}
+a.readon,
+.back_button a {
+	width:83px;
+	height:17px;
+	line-height:17px;
+	margin:0;
+	display:block;
+	float:left;
+	padding-left:10px;
+	font-size:12px;
+}
+a.readon:hover,
+a.readon:active,
+a.readon:focus,
+.back_button a:hover {
+	text-decoration:none;
+}
+td.sectiontableheader {
+	text-align:left;
+	padding:8px 5px;
+}
+tr.sectiontableentry0 td,
+tr.sectiontableentry1 td,
+tr.sectiontableentry2 td {
+	padding:8px 5px;
+	text-align:left;
+}
+td.sectiontableentry0,
+td.sectiontableentry1,
+td.sectiontableentry2 {
+	padding: 3px;
+}
+table.contentpane {
+	border: none;
+	width: 100%;
+}
+table.contentpaneopen {
+	border:none;
+	border-collapse:collapse;
+	border-spacing:0;
+}
+table.blog table.contentpaneopen:first-child td {
+	padding:0;
+}
+table.contentpaneopen td {
+	padding:0;
+}
+table.contenttoc a {
+	text-decoration:none;
+}
+table.contenttoc {
+	margin:0 0 10px 10px;
+	padding:0 0 12px 15px;
+	width:200px;
+	float:right;
+}
+table.contenttoc td {
+	padding:4px 5px 2px 18px;
+	line-height: 14px;
+}
+table.contenttoc th {
+	padding:4px 6px 4px 18px;
+	margin:0;
+	text-align:left;
+	font-size:10px;
+	text-transform:uppercase;
+}
+table.poll {
+	padding: 0;
+	width: 100%;
+	border-collapse:collapse;
+}
+table.pollstableborder {
+	padding: 0;
+	width: 100%;
+	border: none;
+	text-align:left;
+}
+table.pollstableborder img {
+	vertical-align: baseline;
+}
+div.bodyleft{
+    position : absolute;
+    left : -1000px;
+}
+table.pollstableborder td {
+	padding: 4px!important;
+	border-collapse:collapse;
+	border-spacing:0;
+}
+table.searchintro {
+	padding:10px 0;
+	width:100%;
+}
+table.searchintro td {
+	padding:5px!important;
+}
+.blog_more {
+	padding:10px 6px;
+}
+.blog_more strong {
+	margin:0 0 5px;
+	font-weight:normal;
+}
+.blog_more ul {
+	margin:0;
+	padding:0;
+}
+.blog_more ul li {
+	margin:0;
+	padding:0 0 0 17px;
+	border:none;
+}
+.category {
+	font-weight:normal;
+}
+a.category {
+	line-height:1.7em;
+}
+.componentheading {
+	text-align: left;
+	font-size:14px;
+}
+.contentdescription {
+	padding:6px 6px 16px 6px;
+}
+a.contentpagetitle,
+a.contentpagetitle:hover,
+a.contentpagetitle:active,
+a.contentpagetitle:focus {
+	text-decoration:none !important;
+}
+.button,
+button.validate {
+	margin:0 0 0 4px;
+	color: #fff;
+	font-weight:normal;
+	border:none;
+	cursor:pointer;
+	height: 18px;
+	line-height:21px;
+	padding:0px 5px 3px;
+}
+.button:hover,
+button.validate:hover {
+}
+.back_button a {
+	margin-bottom:15px;
+}
+table.contentpaneopen,
+table.contentpane,
+table.blog {
+	width: 100%;
+}
+.contentpane tbody tbody tbody td {
+	padding:0 6px 6px 6px;
+}
+.pagenavbar {
+	padding-left:14px;
+}
+.pagenavcounter {
+	padding:4px 8px 0 14px;
+	font-size:10px;
+	font-weight:bold;
+	float:right;
+}
+div.syndicate div {
+	text-align:center;
+}
+.pollstableborder tr.sectiontableentry1 td,
+.pollstableborder tr.sectiontableentry2 td {
+	background:none;
+}
+img.caption {
+	margin:0 0 3px 0!important;
+	width:auto!important;
+}
+div.img_caption p {
+	margin:0;
+	font-size:10px;
+	color: #3A3A3A;
+}
+div.img_caption.left,
+div.img_caption.right {
+	margin:5px 12px 2px 0;
+	padding:3px;
+}
+div.img_caption.right {
+	margin-left:18px;
+	margin-right:0;
+}
+/* Meta
+--------------------------------------------------------- */
+.modifydate,
+.createdate,
+.small {
+	font-size: 0.9em;
+	color:#aaa!important;
+}
+.modifydate {
+	text-align:right;
+	padding:10px 6px 0 0!important;
+	line-height:120%;
+}
+td.buttonheading {
+	width:14px;
+	margin-left:6px;
+	text-align:right;
+	padding:2px 0 0 2px!important;
+}
+.buttonheading img {
+	margin:0 8px 0 0;
+	border:0;
+	float:right;
+	height:12px;
+}
+div.blog_more ul {
+}
+div.blog_more li {
+	padding-left:0;
+	line-height:150%;
+}
+/* Meta
+--------------------------------------------------------- */
+
+ul.pagination {
+	margin:15px auto 0;
+	padding:10px 0;
+	text-align:center;
+}
+ul.pagination li {
+	margin:0;
+	padding:0!important;
+	display:inline;
+	background:none!important;
+}
+ul.pagination a,
+ul.pagination li span {
+	padding:2px 5px;
+	font-size:10px;
+	background:none!important;
+	text-transform:uppercase;
+	border:1px solid #e8e8e8;
+}
+/* Module Advertisement */
+div.banneritem,
+div.banneritem_text,
+div.banneritem_color {
+	padding:5px 0!important;
+}
+.bannerheader,
+.bannerfooter,
+.bannerfooter_text,
+.bannerfooter_color{
+	padding:3px;
+	font-style:italic;
+	font-size: 0.9em;
+}
+.bannerfooter,
+.bannerfooter_text,
+.bannerfooter_color {
+	text-align:right;
+}
+/* Search form */
+#searchForm {
+	padding:6px;
+}
+#searchForm label {margin-right: 20px;color: #999;}
+#searchForm #search_searchword {border: 1px solid #ccc;}
+#searchForm td {padding: 6px 0;}

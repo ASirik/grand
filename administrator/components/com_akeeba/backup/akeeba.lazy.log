@@ -1,0 +1,1312 @@
+DEBUG   |131030 01:58:49|*** Batching successive steps (nesting level 1)
+DEBUG   |131030 01:58:49|====== Starting Step number 1 ======
+DEBUG   |131030 01:58:49|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |131030 01:58:49|AECoreDomainInit :: New instance
+DEBUG   |131030 01:58:49|----- Finished operation 1 ------
+DEBUG   |131030 01:58:49|PHP NOTICE on line 339 in file <root>/administrator/components/com_akeeba/akeeba/platform/joomla15/platform.php:
+DEBUG   |131030 01:58:49|Use of undefined constant JPATH_COMPONENT_ADMINISTRATOR - assumed 'JPATH_COMPONENT_ADMINISTRATOR'
+INFO    |131030 01:58:49|--------------------------------------------------------------------------------
+INFO    |131030 01:58:49|Akeeba Backup 3.4.3 (2012-03-21)
+INFO    |131030 01:58:49|Got backup?
+INFO    |131030 01:58:49|--------------------------------------------------------------------------------
+INFO    |131030 01:58:49|--- System Information ---
+INFO    |131030 01:58:49|PHP Version        :5.3.6-pl0-gentoo
+INFO    |131030 01:58:49|OS Version         :Linux
+INFO    |131030 01:58:49|DB Version         :5.1.47-log
+INFO    |131030 01:58:49|Web Server         :Apache
+INFO    |131030 01:58:49|PHP Interface      :apache2handler
+INFO    |131030 01:58:49|Joomla! version    :1.5.22
+INFO    |131030 01:58:49|Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+INFO    |131030 01:58:49|Safe mode          :
+INFO    |131030 01:58:49|Display errors     :
+INFO    |131030 01:58:49|Error reporting    :E_ALL | E_STRICT
+INFO    |131030 01:58:49|Error display      :off
+INFO    |131030 01:58:49|Disabled functions :
+INFO    |131030 01:58:49|open_basedir restr.:
+INFO    |131030 01:58:49|Max. exec. time    :300
+INFO    |131030 01:58:49|Memory limit       :128M
+INFO    |131030 01:58:49|Current mem. usage :4553512
+INFO    |131030 01:58:49|GZIP Compression   : available (good)
+INFO    |131030 01:58:49|JPATH_BASE         :<root>
+INFO    |131030 01:58:49|JPATH_SITE         :<root>
+INFO    |131030 01:58:49|JPATH_ROOT         :<root>
+INFO    |131030 01:58:49|JPATH_CACHE        :<root>/cache
+INFO    |131030 01:58:49|Computed root      :<root>
+INFO    |131030 01:58:49|Output directory   :<root>/administrator/components/com_akeeba/backup
+INFO    |131030 01:58:49|--------------------------------------------------------------------------------
+INFO    |131030 01:58:49|Akeeba Backup has detected the following potential problems:
+INFO    |131030 01:58:49|- 203 Папка для хранения резервных копий используется (low)
+INFO    |131030 01:58:49|You probably do not have to worry about them, but you should be aware of them.
+INFO    |131030 01:58:49|--------------------------------------------------------------------------------
+INFO    |131030 01:58:49|Loaded profile #1
+DEBUG   |131030 01:58:49|Archive template name: site-[HOST]-[DATE]-[TIME]
+WARNING |131030 01:58:49|PHP WARNING on line 56 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 250 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strftime() [<a href='function.strftime'>function.strftime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 56 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 250 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strftime() [<a href='function.strftime'>function.strftime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 56 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 250 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strftime() [<a href='function.strftime'>function.strftime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 56 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 250 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strftime() [<a href='function.strftime'>function.strftime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 56 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 250 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strftime() [<a href='function.strftime'>function.strftime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 56 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 250 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strftime() [<a href='function.strftime'>function.strftime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 56 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 245 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|date() [<a href='function.date'>function.date</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 250 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strftime() [<a href='function.strftime'>function.strftime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+DEBUG   |131030 01:58:49|Expanded template name: site-grand.sourex.com-20131029-235849
+DEBUG   |131030 01:58:49|Backup type is now set to 'full'
+WARNING |131030 01:58:49|PHP WARNING on line 56 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 250 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strftime() [<a href='function.strftime'>function.strftime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 56 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 250 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strftime() [<a href='function.strftime'>function.strftime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 56 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 250 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strftime() [<a href='function.strftime'>function.strftime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 56 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 250 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strftime() [<a href='function.strftime'>function.strftime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 56 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 250 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strftime() [<a href='function.strftime'>function.strftime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 56 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 250 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strftime() [<a href='function.strftime'>function.strftime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 56 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 245 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|date() [<a href='function.date'>function.date</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 250 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strftime() [<a href='function.strftime'>function.strftime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 56 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 250 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strftime() [<a href='function.strftime'>function.strftime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 56 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 250 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strftime() [<a href='function.strftime'>function.strftime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 56 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 250 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strftime() [<a href='function.strftime'>function.strftime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 56 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 250 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strftime() [<a href='function.strftime'>function.strftime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 56 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 250 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strftime() [<a href='function.strftime'>function.strftime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 56 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 250 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strftime() [<a href='function.strftime'>function.strftime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 56 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 245 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|date() [<a href='function.date'>function.date</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 250 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strftime() [<a href='function.strftime'>function.strftime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 56 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|strtotime() [<a href='function.strtotime'>function.strtotime</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+WARNING |131030 01:58:49|PHP WARNING on line 198 in file <root>/libraries/joomla/utilities/date.php:
+WARNING |131030 01:58:49|date() [<a href='function.date'>function.date</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Helsinki' for 'EET/2.0/no DST' instead
+DEBUG   |131030 01:58:50|Expanded archive file name: <root>/administrator/components/com_akeeba/backup/site-grand.sourex.com-20131029-235849.jpa
+DEBUG   |131030 01:58:50|Initializing archiver engine
+DEBUG   |131030 01:58:50|AEArchiverJpa :: new instance - archive <root>/administrator/components/com_akeeba/backup/site-grand.sourex.com-20131029-235849.jpa
+DEBUG   |131030 01:58:50|Updating multipart status to 1
+INFO    |131030 01:58:50|AEArchiverJpa :: Spanned JPA creation enabled
+DEBUG   |131030 01:58:50|AEArchiverJpa :: Killing old archive
+DEBUG   |131030 01:58:50|----- Finished operation 2 ------
+DEBUG   |131030 01:58:50|----- Finished operation 3 ------
+DEBUG   |131030 01:58:50|Successful Smart algorithm on AECoreDomainInit
+DEBUG   |131030 01:58:50|Kettenrad :: Domain 'init' has finished.
+DEBUG   |131030 01:58:50|====== Finished Step number 1 ======
+DEBUG   |131030 01:58:50|*** Engine steps batching: Break flag detected.
+DEBUG   |131030 01:58:50|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |131030 01:58:50|Sleeping for 1314.3501281738 msec, using usleep()
+DEBUG   |131030 01:58:51|Saving Kettenrad instance lazy
+DEBUG   |131030 01:58:55| -- Loaded stored Akeeba Factory (lazy)
+DEBUG   |131030 01:58:55|====== Starting Step number 1 ======
+DEBUG   |131030 01:58:55|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |131030 01:58:55|AECoreDomainInstaller :: New instance
+DEBUG   |131030 01:58:55|-- Adding installation/README.html to archive (virtual data)
+DEBUG   |131030 01:58:55|-- Adding installation/extrainfo.ini to archive (virtual data)
+DEBUG   |131030 01:58:55|----- Finished operation 1 ------
+DEBUG   |131030 01:58:55|Initializing with JPA package 
+DEBUG   |131030 01:58:55|  Adding installation/css/img/btn_next.png; Next offset:1897
+DEBUG   |131030 01:58:55|-- Adding installation/css/img/btn_next.png to archive (virtual data)
+DEBUG   |131030 01:58:55|----- Finished operation 2 ------
+DEBUG   |131030 01:58:55|  Adding installation/css/img/btn_prev.png; Next offset:3781
+DEBUG   |131030 01:58:55|-- Adding installation/css/img/btn_prev.png to archive (virtual data)
+DEBUG   |131030 01:58:55|----- Finished operation 3 ------
+DEBUG   |131030 01:58:55|  Adding installation/css/img/busy.gif; Next offset:5207
+DEBUG   |131030 01:58:55|-- Adding installation/css/img/busy.gif to archive (virtual data)
+DEBUG   |131030 01:58:55|----- Finished operation 4 ------
+DEBUG   |131030 01:58:55|  Adding installation/css/img/header_bg.png; Next offset:6798
+DEBUG   |131030 01:58:55|-- Adding installation/css/img/header_bg.png to archive (virtual data)
+DEBUG   |131030 01:58:55|----- Finished operation 5 ------
+DEBUG   |131030 01:58:55|  Adding installation/css/img/logo.png; Next offset:7854
+DEBUG   |131030 01:58:55|-- Adding installation/css/img/logo.png to archive (virtual data)
+DEBUG   |131030 01:58:55|----- Finished operation 6 ------
+DEBUG   |131030 01:58:55|  Adding installation/css/install.css; Next offset:9173
+DEBUG   |131030 01:58:55|-- Adding installation/css/install.css to archive (virtual data)
+DEBUG   |131030 01:58:55|----- Finished operation 7 ------
+DEBUG   |131030 01:58:56|  Adding installation/css/redmond/images/ui-bg_flat_0_aaaaaa_40x100.png; Next offset:9358
+DEBUG   |131030 01:58:56|-- Adding installation/css/redmond/images/ui-bg_flat_0_aaaaaa_40x100.png to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 8 ------
+DEBUG   |131030 01:58:56|  Adding installation/css/redmond/images/ui-bg_flat_55_fbec88_40x100.png; Next offset:9546
+DEBUG   |131030 01:58:56|-- Adding installation/css/redmond/images/ui-bg_flat_55_fbec88_40x100.png to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 9 ------
+DEBUG   |131030 01:58:56|  Adding installation/css/redmond/images/ui-bg_glass_75_d0e5f5_1x400.png; Next offset:9753
+DEBUG   |131030 01:58:56|-- Adding installation/css/redmond/images/ui-bg_glass_75_d0e5f5_1x400.png to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 10 ------
+DEBUG   |131030 01:58:56|  Adding installation/css/redmond/images/ui-bg_glass_85_dfeffc_1x400.png; Next offset:9959
+DEBUG   |131030 01:58:56|-- Adding installation/css/redmond/images/ui-bg_glass_85_dfeffc_1x400.png to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 11 ------
+DEBUG   |131030 01:58:56|  Adding installation/css/redmond/images/ui-bg_glass_95_fef1ec_1x400.png; Next offset:10161
+DEBUG   |131030 01:58:56|-- Adding installation/css/redmond/images/ui-bg_glass_95_fef1ec_1x400.png to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 12 ------
+DEBUG   |131030 01:58:56|  Adding installation/css/redmond/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png; Next offset:13530
+DEBUG   |131030 01:58:56|-- Adding installation/css/redmond/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 13 ------
+DEBUG   |131030 01:58:56|  Adding installation/css/redmond/images/ui-bg_inset-hard_100_f5f8f9_1x100.png; Next offset:13721
+DEBUG   |131030 01:58:56|-- Adding installation/css/redmond/images/ui-bg_inset-hard_100_f5f8f9_1x100.png to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 14 ------
+DEBUG   |131030 01:58:56|  Adding installation/css/redmond/images/ui-bg_inset-hard_100_fcfdfd_1x100.png; Next offset:13896
+DEBUG   |131030 01:58:56|-- Adding installation/css/redmond/images/ui-bg_inset-hard_100_fcfdfd_1x100.png to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 15 ------
+DEBUG   |131030 01:58:56|  Adding installation/css/redmond/images/ui-icons_217bc0_256x240.png; Next offset:18142
+DEBUG   |131030 01:58:56|-- Adding installation/css/redmond/images/ui-icons_217bc0_256x240.png to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 16 ------
+DEBUG   |131030 01:58:56|  Adding installation/css/redmond/images/ui-icons_2e83ff_256x240.png; Next offset:22388
+DEBUG   |131030 01:58:56|-- Adding installation/css/redmond/images/ui-icons_2e83ff_256x240.png to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 17 ------
+DEBUG   |131030 01:58:56|  Adding installation/css/redmond/images/ui-icons_469bdd_256x240.png; Next offset:27677
+DEBUG   |131030 01:58:56|-- Adding installation/css/redmond/images/ui-icons_469bdd_256x240.png to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 18 ------
+DEBUG   |131030 01:58:56|  Adding installation/css/redmond/images/ui-icons_6da8d5_256x240.png; Next offset:31922
+DEBUG   |131030 01:58:56|-- Adding installation/css/redmond/images/ui-icons_6da8d5_256x240.png to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 19 ------
+DEBUG   |131030 01:58:56|  Adding installation/css/redmond/images/ui-icons_cd0a0a_256x240.png; Next offset:36168
+DEBUG   |131030 01:58:56|-- Adding installation/css/redmond/images/ui-icons_cd0a0a_256x240.png to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 20 ------
+DEBUG   |131030 01:58:56|  Adding installation/css/redmond/images/ui-icons_d8e7f3_256x240.png; Next offset:40414
+DEBUG   |131030 01:58:56|-- Adding installation/css/redmond/images/ui-icons_d8e7f3_256x240.png to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 21 ------
+DEBUG   |131030 01:58:56|  Adding installation/css/redmond/images/ui-icons_f9bd01_256x240.png; Next offset:44659
+DEBUG   |131030 01:58:56|-- Adding installation/css/redmond/images/ui-icons_f9bd01_256x240.png to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 22 ------
+DEBUG   |131030 01:58:56|  Adding installation/css/redmond/jquery-ui-redmond.css; Next offset:49831
+DEBUG   |131030 01:58:56|-- Adding installation/css/redmond/jquery-ui-redmond.css to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 23 ------
+DEBUG   |131030 01:58:56|  Adding installation/includes/antidos.php; Next offset:51010
+DEBUG   |131030 01:58:56|-- Adding installation/includes/antidos.php to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 24 ------
+DEBUG   |131030 01:58:56|  Adding installation/includes/automation.php; Next offset:51986
+DEBUG   |131030 01:58:56|-- Adding installation/includes/automation.php to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 25 ------
+DEBUG   |131030 01:58:56|  Adding installation/includes/configuration.php; Next offset:55147
+DEBUG   |131030 01:58:56|-- Adding installation/includes/configuration.php to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 26 ------
+DEBUG   |131030 01:58:56|  Adding installation/includes/db.php; Next offset:58173
+DEBUG   |131030 01:58:56|-- Adding installation/includes/db.php to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 27 ------
+DEBUG   |131030 01:58:56|  Adding installation/includes/ftp.php; Next offset:61870
+DEBUG   |131030 01:58:56|-- Adding installation/includes/ftp.php to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 28 ------
+DEBUG   |131030 01:58:56|  Adding installation/includes/logic/ajax.php; Next offset:63656
+DEBUG   |131030 01:58:56|-- Adding installation/includes/logic/ajax.php to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 29 ------
+DEBUG   |131030 01:58:56|  Adding installation/includes/logic/dbsetup.php; Next offset:66427
+DEBUG   |131030 01:58:56|-- Adding installation/includes/logic/dbsetup.php to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 30 ------
+DEBUG   |131030 01:58:56|  Adding installation/includes/logic/finish.php; Next offset:68684
+DEBUG   |131030 01:58:56|-- Adding installation/includes/logic/finish.php to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 31 ------
+DEBUG   |131030 01:58:56|  Adding installation/includes/logic/index.php; Next offset:70817
+DEBUG   |131030 01:58:56|-- Adding installation/includes/logic/index.php to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 32 ------
+DEBUG   |131030 01:58:56|  Adding installation/includes/logic/restore.php; Next offset:76985
+DEBUG   |131030 01:58:56|-- Adding installation/includes/logic/restore.php to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 33 ------
+DEBUG   |131030 01:58:56|  Adding installation/includes/logic/setup.php; Next offset:79135
+DEBUG   |131030 01:58:56|-- Adding installation/includes/logic/setup.php to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 34 ------
+DEBUG   |131030 01:58:56|  Adding installation/includes/output/dbsetup.php; Next offset:80969
+DEBUG   |131030 01:58:56|-- Adding installation/includes/output/dbsetup.php to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 35 ------
+DEBUG   |131030 01:58:56|  Adding installation/includes/output/finish.php; Next offset:81964
+DEBUG   |131030 01:58:56|-- Adding installation/includes/output/finish.php to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 36 ------
+DEBUG   |131030 01:58:56|  Adding installation/includes/output/index.php; Next offset:83737
+DEBUG   |131030 01:58:56|-- Adding installation/includes/output/index.php to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 37 ------
+DEBUG   |131030 01:58:56|  Adding installation/includes/output/setup.php; Next offset:85758
+DEBUG   |131030 01:58:56|-- Adding installation/includes/output/setup.php to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 38 ------
+DEBUG   |131030 01:58:56|  Adding installation/includes/output.php; Next offset:87963
+DEBUG   |131030 01:58:56|-- Adding installation/includes/output.php to archive (virtual data)
+DEBUG   |131030 01:58:56|----- Finished operation 39 ------
+DEBUG   |131030 01:58:57|  Adding installation/includes/storage.php; Next offset:89692
+DEBUG   |131030 01:58:57|-- Adding installation/includes/storage.php to archive (virtual data)
+DEBUG   |131030 01:58:57|----- Finished operation 40 ------
+DEBUG   |131030 01:58:57|  Adding installation/includes/translate.php; Next offset:90812
+DEBUG   |131030 01:58:57|-- Adding installation/includes/translate.php to archive (virtual data)
+DEBUG   |131030 01:58:57|----- Finished operation 41 ------
+DEBUG   |131030 01:58:57|  Adding installation/includes/utils.php; Next offset:92659
+DEBUG   |131030 01:58:57|-- Adding installation/includes/utils.php to archive (virtual data)
+DEBUG   |131030 01:58:57|----- Finished operation 42 ------
+DEBUG   |131030 01:58:57|  Adding installation/index.php; Next offset:94006
+DEBUG   |131030 01:58:57|-- Adding installation/index.php to archive (virtual data)
+DEBUG   |131030 01:58:57|----- Finished operation 43 ------
+DEBUG   |131030 01:58:57|  Adding installation/js/cookie.js; Next offset:94859
+DEBUG   |131030 01:58:57|-- Adding installation/js/cookie.js to archive (virtual data)
+DEBUG   |131030 01:58:57|----- Finished operation 44 ------
+DEBUG   |131030 01:58:57|  Adding installation/js/install.js; Next offset:100225
+DEBUG   |131030 01:58:57|-- Adding installation/js/install.js to archive (virtual data)
+DEBUG   |131030 01:58:57|----- Finished operation 45 ------
+DEBUG   |131030 01:58:58|  Adding installation/js/jquery-ui.min.js; Next offset:152400
+DEBUG   |131030 01:58:58|-- Adding installation/js/jquery-ui.min.js to archive (virtual data)
+DEBUG   |131030 01:58:58|----- Finished operation 46 ------
+DEBUG   |131030 01:58:58|  Adding installation/js/jquery.blockUI.js; Next offset:157605
+DEBUG   |131030 01:58:58|-- Adding installation/js/jquery.blockUI.js to archive (virtual data)
+DEBUG   |131030 01:58:58|----- Finished operation 47 ------
+DEBUG   |131030 01:58:58|  Adding installation/js/jquery.min.js; Next offset:190814
+DEBUG   |131030 01:58:58|-- Adding installation/js/jquery.min.js to archive (virtual data)
+DEBUG   |131030 01:58:58|----- Finished operation 48 ------
+DEBUG   |131030 01:58:58|  Adding installation/lang/da.ini; Next offset:195051
+DEBUG   |131030 01:58:58|-- Adding installation/lang/da.ini to archive (virtual data)
+DEBUG   |131030 01:58:58|----- Finished operation 49 ------
+DEBUG   |131030 01:58:58|  Adding installation/lang/de.ini; Next offset:199359
+DEBUG   |131030 01:58:58|-- Adding installation/lang/de.ini to archive (virtual data)
+DEBUG   |131030 01:58:58|----- Finished operation 50 ------
+DEBUG   |131030 01:58:58|  Adding installation/lang/el.ini; Next offset:205030
+DEBUG   |131030 01:58:58|-- Adding installation/lang/el.ini to archive (virtual data)
+DEBUG   |131030 01:58:58|----- Finished operation 51 ------
+DEBUG   |131030 01:58:58|  Adding installation/lang/en.ini; Next offset:209123
+DEBUG   |131030 01:58:58|-- Adding installation/lang/en.ini to archive (virtual data)
+DEBUG   |131030 01:58:58|----- Finished operation 52 ------
+DEBUG   |131030 01:58:58|  Adding installation/lang/fr.ini; Next offset:213592
+DEBUG   |131030 01:58:58|-- Adding installation/lang/fr.ini to archive (virtual data)
+DEBUG   |131030 01:58:58|----- Finished operation 53 ------
+DEBUG   |131030 01:58:58|  Adding installation/lang/it.ini; Next offset:217734
+DEBUG   |131030 01:58:58|-- Adding installation/lang/it.ini to archive (virtual data)
+DEBUG   |131030 01:58:58|----- Finished operation 54 ------
+DEBUG   |131030 01:58:58|  Adding installation/lang/ja.ini; Next offset:221315
+DEBUG   |131030 01:58:58|-- Adding installation/lang/ja.ini to archive (virtual data)
+DEBUG   |131030 01:58:58|----- Finished operation 55 ------
+DEBUG   |131030 01:58:58|  Adding installation/lang/lt.ini; Next offset:224871
+DEBUG   |131030 01:58:58|-- Adding installation/lang/lt.ini to archive (virtual data)
+DEBUG   |131030 01:58:58|----- Finished operation 56 ------
+DEBUG   |131030 01:58:58|  Adding installation/lang/nb.ini; Next offset:229011
+DEBUG   |131030 01:58:58|-- Adding installation/lang/nb.ini to archive (virtual data)
+DEBUG   |131030 01:58:58|----- Finished operation 57 ------
+DEBUG   |131030 01:58:58|  Adding installation/lang/nl.ini; Next offset:233541
+DEBUG   |131030 01:58:58|-- Adding installation/lang/nl.ini to archive (virtual data)
+DEBUG   |131030 01:58:58|----- Finished operation 58 ------
+DEBUG   |131030 01:58:58|  Adding installation/lang/pl.ini; Next offset:238262
+DEBUG   |131030 01:58:58|-- Adding installation/lang/pl.ini to archive (virtual data)
+DEBUG   |131030 01:58:58|----- Finished operation 59 ------
+DEBUG   |131030 01:58:58|  Adding installation/lang/tr.ini; Next offset:242581
+DEBUG   |131030 01:58:58|-- Adding installation/lang/tr.ini to archive (virtual data)
+DEBUG   |131030 01:58:58|----- Finished operation 60 ------
+DEBUG   |131030 01:58:58|  Adding installation/lang/uk.ini; Next offset:248000
+DEBUG   |131030 01:58:58|-- Adding installation/lang/uk.ini to archive (virtual data)
+DEBUG   |131030 01:58:58|----- Finished operation 61 ------
+DEBUG   |131030 01:58:58|  Adding installation/lang/zh-tw.ini; Next offset:252528
+DEBUG   |131030 01:58:58|-- Adding installation/lang/zh-tw.ini to archive (virtual data)
+DEBUG   |131030 01:58:58|----- Finished operation 62 ------
+DEBUG   |131030 01:58:58|  Adding installation/lang/zh.ini; Next offset:257028
+DEBUG   |131030 01:58:58|-- Adding installation/lang/zh.ini to archive (virtual data)
+DEBUG   |131030 01:58:58|----- Finished operation 63 ------
+DEBUG   |131030 01:58:58|  Adding installation/version.php; Next offset:257214
+DEBUG   |131030 01:58:58|-- Adding installation/version.php to archive (virtual data)
+DEBUG   |131030 01:58:58|----- Finished operation 64 ------
+DEBUG   |131030 01:58:58|  Skipping installation/sql/
+DEBUG   |131030 01:58:58|----- Finished operation 65 ------
+DEBUG   |131030 01:58:58|Done
+DEBUG   |131030 01:58:58|Initializing with JPA package has finished
+DEBUG   |131030 01:58:58|AECoreDomainInstaller:: archive is initialized
+DEBUG   |131030 01:58:58|----- Finished operation 66 ------
+DEBUG   |131030 01:58:58|Successful Smart algorithm on AECoreDomainInstaller
+DEBUG   |131030 01:58:58|Kettenrad :: Domain 'installer' has finished.
+DEBUG   |131030 01:58:58|====== Finished Step number 1 ======
+DEBUG   |131030 01:58:58|*** Engine steps batching: Break flag detected.
+DEBUG   |131030 01:58:58|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |131030 01:58:58|No need to sleep; execution time: 2294.4729328156 msec; min. exec. time: 2000 msec
+DEBUG   |131030 01:58:58|Saving Kettenrad instance lazy
+DEBUG   |131030 01:59:01| -- Loaded stored Akeeba Factory (lazy)
+DEBUG   |131030 01:59:01|====== Starting Step number 2 ======
+DEBUG   |131030 01:59:01|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |131030 01:59:01|AECoreDomainDb :: New instance
+DEBUG   |131030 01:59:01|AECoreDomainDb :: Preparing instance
+DEBUG   |131030 01:59:01|Fetching filter data from database
+DEBUG   |131030 01:59:01|Loading filters
+DEBUG   |131030 01:59:01|-- Loading filter PlatformFiles
+DEBUG   |131030 01:59:01|-- Loading filter PlatformFolders
+DEBUG   |131030 01:59:01|-- Loading filter PlatformLibraries
+DEBUG   |131030 01:59:01|-- Loading filter PlatformSitedb
+DEBUG   |131030 01:59:01|-- Loading filter PlatformSiteroot
+DEBUG   |131030 01:59:02|-- Loading filter PlatformSkipdirs
+DEBUG   |131030 01:59:02|-- Loading filter PlatformSkipfiles
+DEBUG   |131030 01:59:02|-- Loading filter PlatformSystemcachefiles
+DEBUG   |131030 01:59:02|-- Loading filter PlatformTabledata
+DEBUG   |131030 01:59:02|-- Loading filter Directories
+DEBUG   |131030 01:59:02|-- Loading filter Files
+DEBUG   |131030 01:59:02|-- Loading filter Incremental
+DEBUG   |131030 01:59:02|-- Loading filter Skipdirs
+DEBUG   |131030 01:59:02|-- Loading filter Skipfiles
+DEBUG   |131030 01:59:02|-- Loading filter Srpdata
+DEBUG   |131030 01:59:02|-- Loading filter Srpdirs
+DEBUG   |131030 01:59:02|-- Loading filter Srpfiles
+DEBUG   |131030 01:59:02|-- Loading filter Srpskipdata
+DEBUG   |131030 01:59:03|-- Loading filter Srpskipfiles
+DEBUG   |131030 01:59:03|-- Loading filter Tabledata
+DEBUG   |131030 01:59:03|-- Loading filter Tables
+DEBUG   |131030 01:59:03|Loading optional filters
+DEBUG   |131030 01:59:03|----- Finished operation 1 ------
+DEBUG   |131030 01:59:03|AECoreDomainDb :: Iterating next database
+DEBUG   |131030 01:59:03|AEDumpNative :: New instance
+DEBUG   |131030 01:59:03|AEDumpNative :: Processing parameters
+DEBUG   |131030 01:59:03|AEDumpNative :: Finding tables to include in the backup set
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_banner automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_bannerclient automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_bannertrack automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_categories automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_components automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_contact_details automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_content automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_content_frontpage automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_content_rating automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_core_acl_aro automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_core_acl_aro_groups automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_core_acl_aro_map automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_core_acl_aro_sections automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_core_acl_groups_aro_map automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_core_log_items automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_core_log_searches automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_gk3_photoslide_groups automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_gk3_photoslide_options automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_gk3_photoslide_slides automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_gk3_tabs_manager_groups automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_gk3_tabs_manager_options automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_gk3_tabs_manager_tabs automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_groups automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_menu automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_menu_types automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_messages automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_messages_cfg automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_migration_backlinks automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_modules automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_modules_menu automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_newsfeeds automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_plugins automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_poll_data automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_poll_date automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_poll_menu automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_polls automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_sections automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_session automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_stats_agents automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_templates_menu automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_users automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Backup table bak_weblinks automatically skipped.
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_ak_acl (internal name #__ak_acl)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_ak_profiles (internal name #__ak_profiles)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_ak_stats (internal name #__ak_stats)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_ak_storage (internal name #__ak_storage)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_banner (internal name #__banner)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_bannerclient (internal name #__bannerclient)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_bannertrack (internal name #__bannertrack)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_categories (internal name #__categories)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_components (internal name #__components)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_contact_details (internal name #__contact_details)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_content (internal name #__content)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_content_frontpage (internal name #__content_frontpage)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_content_rating (internal name #__content_rating)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_core_acl_aro (internal name #__core_acl_aro)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_core_acl_aro_groups (internal name #__core_acl_aro_groups)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_core_acl_aro_map (internal name #__core_acl_aro_map)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_core_acl_aro_sections (internal name #__core_acl_aro_sections)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_core_acl_groups_aro_map (internal name #__core_acl_groups_aro_map)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_core_log_items (internal name #__core_log_items)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_core_log_searches (internal name #__core_log_searches)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_gk3_photoslide_groups (internal name #__gk3_photoslide_groups)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_gk3_photoslide_options (internal name #__gk3_photoslide_options)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_gk3_photoslide_slides (internal name #__gk3_photoslide_slides)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_gk3_tabs_manager_groups (internal name #__gk3_tabs_manager_groups)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_gk3_tabs_manager_options (internal name #__gk3_tabs_manager_options)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_gk3_tabs_manager_tabs (internal name #__gk3_tabs_manager_tabs)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_groups (internal name #__groups)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_joomgallery (internal name #__joomgallery)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_joomgallery_catg (internal name #__joomgallery_catg)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_joomgallery_comments (internal name #__joomgallery_comments)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_joomgallery_config (internal name #__joomgallery_config)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_joomgallery_countstop (internal name #__joomgallery_countstop)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_joomgallery_maintenance (internal name #__joomgallery_maintenance)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_joomgallery_nameshields (internal name #__joomgallery_nameshields)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_joomgallery_orphans (internal name #__joomgallery_orphans)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_joomgallery_users (internal name #__joomgallery_users)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_joomgallery_votes (internal name #__joomgallery_votes)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_menu (internal name #__menu)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_menu_types (internal name #__menu_types)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_messages (internal name #__messages)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_messages_cfg (internal name #__messages_cfg)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_migration_backlinks (internal name #__migration_backlinks)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_modules (internal name #__modules)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_modules_menu (internal name #__modules_menu)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_newsfeeds (internal name #__newsfeeds)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_plugins (internal name #__plugins)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_poll_data (internal name #__poll_data)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_poll_date (internal name #__poll_date)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_poll_menu (internal name #__poll_menu)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_polls (internal name #__polls)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_sections (internal name #__sections)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_session (internal name #__session)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_stats_agents (internal name #__stats_agents)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_templates_menu (internal name #__templates_menu)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_users (internal name #__users)
+INFO    |131030 01:59:03|AEDumpNative :: Adding jos_weblinks (internal name #__weblinks)
+DEBUG   |131030 01:59:03|AEDumpNative :: Starting CREATE TABLE and dependency scanning
+DEBUG   |131030 01:59:03|AEDumpNative :: Got database connection
+DEBUG   |131030 01:59:03|AEDumpNative :: Got SHOW TABLES
+DEBUG   |131030 01:59:03|AEDumpNative :: Got table list
+DEBUG   |131030 01:59:03|AEDumpNative :: Processed dependencies
+DEBUG   |131030 01:59:03|XXX AEAbstractDump :: Getting temporary file
+DEBUG   |131030 01:59:03|XXX AEAbstractDump :: Temporary file is <root>/administrator/components/com_akeeba/backup/2ed154fc.sql
+DEBUG   |131030 01:59:03|AkeebaDomainDBBackup :: SQL temp file is <root>/administrator/components/com_akeeba/backup/2ed154fc.sql
+DEBUG   |131030 01:59:03|AkeebaDomainDBBackup :: SQL file location in archive is installation/sql/joomla.sql
+DEBUG   |131030 01:59:03|AkeebaDomainDBBackup :: Deleting leftover files, if any
+DEBUG   |131030 01:59:03|AEDumpNative :: Initializing algorithm for first run
+DEBUG   |131030 01:59:03|----- Finished operation 2 ------
+DEBUG   |131030 01:59:03|Rows on #__ak_acl : 0
+DEBUG   |131030 01:59:03|Done dumping #__ak_acl
+DEBUG   |131030 01:59:03|----- Finished operation 3 ------
+DEBUG   |131030 01:59:03|Rows on #__ak_profiles : 1
+INFO    |131030 01:59:03|Beginning dump of #__ak_profiles
+DEBUG   |131030 01:59:03|Done dumping #__ak_profiles
+DEBUG   |131030 01:59:03|----- Finished operation 4 ------
+DEBUG   |131030 01:59:03|Rows on #__ak_stats : 4
+INFO    |131030 01:59:03|Beginning dump of #__ak_stats
+DEBUG   |131030 01:59:03|Done dumping #__ak_stats
+DEBUG   |131030 01:59:03|----- Finished operation 5 ------
+DEBUG   |131030 01:59:04|Rows on #__ak_storage : 0
+DEBUG   |131030 01:59:04|Done dumping #__ak_storage
+DEBUG   |131030 01:59:04|----- Finished operation 6 ------
+DEBUG   |131030 01:59:04|Rows on #__banner : 8
+INFO    |131030 01:59:04|Beginning dump of #__banner
+DEBUG   |131030 01:59:04|Done dumping #__banner
+DEBUG   |131030 01:59:04|----- Finished operation 7 ------
+DEBUG   |131030 01:59:04|Rows on #__bannerclient : 1
+INFO    |131030 01:59:04|Beginning dump of #__bannerclient
+DEBUG   |131030 01:59:04|Done dumping #__bannerclient
+DEBUG   |131030 01:59:04|----- Finished operation 8 ------
+DEBUG   |131030 01:59:04|Rows on #__bannertrack : 0
+DEBUG   |131030 01:59:04|Done dumping #__bannertrack
+DEBUG   |131030 01:59:04|----- Finished operation 9 ------
+DEBUG   |131030 01:59:04|Rows on #__categories : 18
+INFO    |131030 01:59:04|Beginning dump of #__categories
+DEBUG   |131030 01:59:04|Done dumping #__categories
+DEBUG   |131030 01:59:04|----- Finished operation 10 ------
+DEBUG   |131030 01:59:04|Rows on #__components : 48
+INFO    |131030 01:59:04|Beginning dump of #__components
+DEBUG   |131030 01:59:04|Done dumping #__components
+DEBUG   |131030 01:59:04|----- Finished operation 11 ------
+DEBUG   |131030 01:59:04|Rows on #__contact_details : 1
+INFO    |131030 01:59:04|Beginning dump of #__contact_details
+DEBUG   |131030 01:59:04|Done dumping #__contact_details
+DEBUG   |131030 01:59:04|----- Finished operation 12 ------
+DEBUG   |131030 01:59:04|Rows on #__content : 41
+INFO    |131030 01:59:04|Beginning dump of #__content
+DEBUG   |131030 01:59:04|Writing 183249 bytes to the dump file
+DEBUG   |131030 01:59:04|Done dumping #__content
+DEBUG   |131030 01:59:04|----- Finished operation 13 ------
+DEBUG   |131030 01:59:04|Rows on #__content_frontpage : 4
+INFO    |131030 01:59:04|Beginning dump of #__content_frontpage
+DEBUG   |131030 01:59:04|Done dumping #__content_frontpage
+DEBUG   |131030 01:59:04|----- Finished operation 14 ------
+DEBUG   |131030 01:59:04|Rows on #__content_rating : 0
+DEBUG   |131030 01:59:04|Done dumping #__content_rating
+DEBUG   |131030 01:59:04|----- Finished operation 15 ------
+DEBUG   |131030 01:59:04|Rows on #__core_acl_aro : 4
+INFO    |131030 01:59:04|Beginning dump of #__core_acl_aro
+DEBUG   |131030 01:59:04|Done dumping #__core_acl_aro
+DEBUG   |131030 01:59:04|----- Finished operation 16 ------
+DEBUG   |131030 01:59:04|Rows on #__core_acl_aro_groups : 11
+INFO    |131030 01:59:04|Beginning dump of #__core_acl_aro_groups
+DEBUG   |131030 01:59:04|Done dumping #__core_acl_aro_groups
+DEBUG   |131030 01:59:04|----- Finished operation 17 ------
+DEBUG   |131030 01:59:04|Rows on #__core_acl_aro_map : 0
+DEBUG   |131030 01:59:04|Done dumping #__core_acl_aro_map
+DEBUG   |131030 01:59:04|----- Finished operation 18 ------
+DEBUG   |131030 01:59:04|Rows on #__core_acl_aro_sections : 1
+INFO    |131030 01:59:04|Beginning dump of #__core_acl_aro_sections
+DEBUG   |131030 01:59:04|Done dumping #__core_acl_aro_sections
+DEBUG   |131030 01:59:04|----- Finished operation 19 ------
+DEBUG   |131030 01:59:04|Rows on #__core_acl_groups_aro_map : 4
+INFO    |131030 01:59:04|Beginning dump of #__core_acl_groups_aro_map
+DEBUG   |131030 01:59:04|Done dumping #__core_acl_groups_aro_map
+DEBUG   |131030 01:59:04|----- Finished operation 20 ------
+DEBUG   |131030 01:59:04|Rows on #__core_log_items : 0
+DEBUG   |131030 01:59:04|Done dumping #__core_log_items
+DEBUG   |131030 01:59:04|----- Finished operation 21 ------
+DEBUG   |131030 01:59:04|Rows on #__core_log_searches : 0
+DEBUG   |131030 01:59:04|Done dumping #__core_log_searches
+DEBUG   |131030 01:59:04|----- Finished operation 22 ------
+DEBUG   |131030 01:59:04|Rows on #__gk3_photoslide_groups : 2
+INFO    |131030 01:59:04|Beginning dump of #__gk3_photoslide_groups
+DEBUG   |131030 01:59:04|Done dumping #__gk3_photoslide_groups
+DEBUG   |131030 01:59:04|----- Finished operation 23 ------
+DEBUG   |131030 01:59:04|Rows on #__gk3_photoslide_options : 7
+INFO    |131030 01:59:04|Beginning dump of #__gk3_photoslide_options
+DEBUG   |131030 01:59:04|Done dumping #__gk3_photoslide_options
+DEBUG   |131030 01:59:04|----- Finished operation 24 ------
+DEBUG   |131030 01:59:04|Rows on #__gk3_photoslide_slides : 15
+INFO    |131030 01:59:04|Beginning dump of #__gk3_photoslide_slides
+DEBUG   |131030 01:59:04|Done dumping #__gk3_photoslide_slides
+DEBUG   |131030 01:59:04|----- Finished operation 25 ------
+DEBUG   |131030 01:59:04|Rows on #__gk3_tabs_manager_groups : 5
+INFO    |131030 01:59:04|Beginning dump of #__gk3_tabs_manager_groups
+DEBUG   |131030 01:59:04|Done dumping #__gk3_tabs_manager_groups
+DEBUG   |131030 01:59:04|----- Finished operation 26 ------
+DEBUG   |131030 01:59:04|Rows on #__gk3_tabs_manager_options : 6
+INFO    |131030 01:59:04|Beginning dump of #__gk3_tabs_manager_options
+DEBUG   |131030 01:59:04|Done dumping #__gk3_tabs_manager_options
+DEBUG   |131030 01:59:04|----- Finished operation 27 ------
+DEBUG   |131030 01:59:04|Rows on #__gk3_tabs_manager_tabs : 14
+INFO    |131030 01:59:04|Beginning dump of #__gk3_tabs_manager_tabs
+DEBUG   |131030 01:59:04|Done dumping #__gk3_tabs_manager_tabs
+DEBUG   |131030 01:59:04|----- Finished operation 28 ------
+DEBUG   |131030 01:59:04|Rows on #__groups : 3
+INFO    |131030 01:59:04|Beginning dump of #__groups
+DEBUG   |131030 01:59:04|Done dumping #__groups
+DEBUG   |131030 01:59:04|----- Finished operation 29 ------
+DEBUG   |131030 01:59:04|Rows on #__joomgallery : 0
+DEBUG   |131030 01:59:04|Done dumping #__joomgallery
+DEBUG   |131030 01:59:04|----- Finished operation 30 ------
+DEBUG   |131030 01:59:04|Rows on #__joomgallery_catg : 0
+DEBUG   |131030 01:59:04|Done dumping #__joomgallery_catg
+DEBUG   |131030 01:59:04|----- Finished operation 31 ------
+DEBUG   |131030 01:59:04|Rows on #__joomgallery_comments : 0
+DEBUG   |131030 01:59:04|Done dumping #__joomgallery_comments
+DEBUG   |131030 01:59:04|----- Finished operation 32 ------
+DEBUG   |131030 01:59:04|Rows on #__joomgallery_config : 1
+INFO    |131030 01:59:04|Beginning dump of #__joomgallery_config
+DEBUG   |131030 01:59:04|Done dumping #__joomgallery_config
+DEBUG   |131030 01:59:04|----- Finished operation 33 ------
+DEBUG   |131030 01:59:04|Rows on #__joomgallery_countstop : 0
+DEBUG   |131030 01:59:04|Done dumping #__joomgallery_countstop
+DEBUG   |131030 01:59:04|----- Finished operation 34 ------
+DEBUG   |131030 01:59:04|Rows on #__joomgallery_maintenance : 0
+DEBUG   |131030 01:59:04|Done dumping #__joomgallery_maintenance
+DEBUG   |131030 01:59:04|----- Finished operation 35 ------
+DEBUG   |131030 01:59:04|Rows on #__joomgallery_nameshields : 0
+DEBUG   |131030 01:59:04|Done dumping #__joomgallery_nameshields
+DEBUG   |131030 01:59:04|----- Finished operation 36 ------
+DEBUG   |131030 01:59:04|Rows on #__joomgallery_orphans : 0
+DEBUG   |131030 01:59:04|Done dumping #__joomgallery_orphans
+DEBUG   |131030 01:59:04|----- Finished operation 37 ------
+DEBUG   |131030 01:59:04|Rows on #__joomgallery_users : 0
+DEBUG   |131030 01:59:04|Done dumping #__joomgallery_users
+DEBUG   |131030 01:59:04|----- Finished operation 38 ------
+DEBUG   |131030 01:59:04|Rows on #__joomgallery_votes : 0
+DEBUG   |131030 01:59:04|Done dumping #__joomgallery_votes
+DEBUG   |131030 01:59:04|----- Finished operation 39 ------
+DEBUG   |131030 01:59:04|Rows on #__menu : 25
+INFO    |131030 01:59:04|Beginning dump of #__menu
+DEBUG   |131030 01:59:04|Done dumping #__menu
+DEBUG   |131030 01:59:04|----- Finished operation 40 ------
+DEBUG   |131030 01:59:04|Rows on #__menu_types : 3
+INFO    |131030 01:59:04|Beginning dump of #__menu_types
+DEBUG   |131030 01:59:04|Done dumping #__menu_types
+DEBUG   |131030 01:59:04|----- Finished operation 41 ------
+DEBUG   |131030 01:59:04|Rows on #__messages : 0
+DEBUG   |131030 01:59:04|Done dumping #__messages
+DEBUG   |131030 01:59:04|----- Finished operation 42 ------
+DEBUG   |131030 01:59:04|Rows on #__messages_cfg : 0
+DEBUG   |131030 01:59:04|Done dumping #__messages_cfg
+DEBUG   |131030 01:59:04|----- Finished operation 43 ------
+DEBUG   |131030 01:59:04|Rows on #__migration_backlinks : 0
+DEBUG   |131030 01:59:04|Done dumping #__migration_backlinks
+DEBUG   |131030 01:59:04|----- Finished operation 44 ------
+DEBUG   |131030 01:59:04|Rows on #__modules : 55
+INFO    |131030 01:59:04|Beginning dump of #__modules
+DEBUG   |131030 01:59:04|Done dumping #__modules
+DEBUG   |131030 01:59:04|----- Finished operation 45 ------
+DEBUG   |131030 01:59:04|Rows on #__modules_menu : 189
+INFO    |131030 01:59:04|Beginning dump of #__modules_menu
+DEBUG   |131030 01:59:04|Done dumping #__modules_menu
+DEBUG   |131030 01:59:04|----- Finished operation 46 ------
+DEBUG   |131030 01:59:04|Rows on #__newsfeeds : 14
+INFO    |131030 01:59:04|Beginning dump of #__newsfeeds
+DEBUG   |131030 01:59:04|Done dumping #__newsfeeds
+DEBUG   |131030 01:59:04|----- Finished operation 47 ------
+DEBUG   |131030 01:59:04|Rows on #__plugins : 36
+INFO    |131030 01:59:04|Beginning dump of #__plugins
+DEBUG   |131030 01:59:04|Done dumping #__plugins
+DEBUG   |131030 01:59:04|----- Finished operation 48 ------
+DEBUG   |131030 01:59:04|Rows on #__poll_data : 12
+INFO    |131030 01:59:04|Beginning dump of #__poll_data
+DEBUG   |131030 01:59:04|Done dumping #__poll_data
+DEBUG   |131030 01:59:04|----- Finished operation 49 ------
+DEBUG   |131030 01:59:04|Rows on #__poll_date : 11
+INFO    |131030 01:59:04|Beginning dump of #__poll_date
+DEBUG   |131030 01:59:04|Done dumping #__poll_date
+DEBUG   |131030 01:59:04|----- Finished operation 50 ------
+DEBUG   |131030 01:59:04|Rows on #__poll_menu : 0
+DEBUG   |131030 01:59:04|Done dumping #__poll_menu
+DEBUG   |131030 01:59:04|----- Finished operation 51 ------
+DEBUG   |131030 01:59:04|Rows on #__polls : 1
+INFO    |131030 01:59:04|Beginning dump of #__polls
+DEBUG   |131030 01:59:04|Done dumping #__polls
+DEBUG   |131030 01:59:04|----- Finished operation 52 ------
+DEBUG   |131030 01:59:04|Rows on #__sections : 3
+INFO    |131030 01:59:04|Beginning dump of #__sections
+DEBUG   |131030 01:59:04|Done dumping #__sections
+DEBUG   |131030 01:59:04|----- Finished operation 53 ------
+INFO    |131030 01:59:04|Skipping dumping data of #__session
+DEBUG   |131030 01:59:04|Done dumping #__session
+DEBUG   |131030 01:59:04|----- Finished operation 54 ------
+DEBUG   |131030 01:59:04|Rows on #__stats_agents : 0
+DEBUG   |131030 01:59:04|Done dumping #__stats_agents
+DEBUG   |131030 01:59:04|----- Finished operation 55 ------
+DEBUG   |131030 01:59:04|Rows on #__templates_menu : 2
+INFO    |131030 01:59:04|Beginning dump of #__templates_menu
+DEBUG   |131030 01:59:04|Done dumping #__templates_menu
+DEBUG   |131030 01:59:04|----- Finished operation 56 ------
+DEBUG   |131030 01:59:04|Rows on #__users : 4
+INFO    |131030 01:59:04|Beginning dump of #__users
+DEBUG   |131030 01:59:04|Done dumping #__users
+DEBUG   |131030 01:59:04|----- Finished operation 57 ------
+DEBUG   |131030 01:59:04|Rows on #__weblinks : 6
+INFO    |131030 01:59:04|Beginning dump of #__weblinks
+DEBUG   |131030 01:59:04|Done dumping #__weblinks
+INFO    |131030 01:59:04|End of database detected; flushing the dump buffers...
+DEBUG   |131030 01:59:04|Writing 95739 bytes to the dump file
+INFO    |131030 01:59:04|Database has been successfully dumped to SQL file(s)
+DEBUG   |131030 01:59:04|----- Finished operation 58 ------
+DEBUG   |131030 01:59:04|Adding any extra SQL statements imposed by the filters
+DEBUG   |131030 01:59:04|Closing SQL dump file.
+DEBUG   |131030 01:59:04|Adding the final SQL dump to the archive
+DEBUG   |131030 01:59:04|-- Adding installation/sql/joomla.sql to archive (source: <root>/administrator/components/com_akeeba/backup/2ed154fc.sql)
+DEBUG   |131030 01:59:04|Removing temporary file of final SQL dump
+DEBUG   |131030 01:59:04|-- Removing temporary file 2ed154fc.sql
+DEBUG   |131030 01:59:04|AECoreDomainDb :: No more databases left to iterate
+DEBUG   |131030 01:59:04|----- Finished operation 59 ------
+DEBUG   |131030 01:59:04|AECoreDomainDbAkeebaCUBEDomainDBBackup :: Creating databases.ini data
+DEBUG   |131030 01:59:04|AECoreDomainDb :: Creating databases.ini
+DEBUG   |131030 01:59:04|AECoreDomainDb :: Writing databases.ini contents
+DEBUG   |131030 01:59:04|-- Adding installation/sql/databases.ini to archive (virtual data)
+DEBUG   |131030 01:59:04|----- Finished operation 60 ------
+DEBUG   |131030 01:59:04|Successful Smart algorithm on AECoreDomainDb
+DEBUG   |131030 01:59:04|Kettenrad :: Domain 'PackDB' has finished.
+DEBUG   |131030 01:59:04|====== Finished Step number 2 ======
+DEBUG   |131030 01:59:04|*** Engine steps batching: Break flag detected.
+DEBUG   |131030 01:59:04|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |131030 01:59:04|No need to sleep; execution time: 3080.9059143066 msec; min. exec. time: 2000 msec
+DEBUG   |131030 01:59:04|Saving Kettenrad instance lazy
+DEBUG   |131030 01:59:04|Closing SQL dump file.
+DEBUG   |131030 01:59:04| -- Loaded stored Akeeba Factory (lazy)
+DEBUG   |131030 01:59:04|====== Starting Step number 3 ======
+DEBUG   |131030 01:59:04|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |131030 01:59:05|AECoreDomainPack :: new instance
+DEBUG   |131030 01:59:05|AECoreDomainPack :: Starting _prepare()
+DEBUG   |131030 01:59:05|AECoreDomainPack :: Getting directory inclusion filters
+DEBUG   |131030 01:59:05|AECoreDomainPack :: prepared
+DEBUG   |131030 01:59:05|----- Finished operation 1 ------
+INFO    |131030 01:59:05|Scanning directories of <root>
+INFO    |131030 01:59:05|Scanning files of <root>
+DEBUG   |131030 01:59:05|Packing files
+DEBUG   |131030 01:59:05|-- Adding .htaccess to archive (source: <root>/.htaccess)
+DEBUG   |131030 01:59:05|-- Adding CHANGELOG.php to archive (source: <root>/CHANGELOG.php)
+DEBUG   |131030 01:59:05|-- Adding COPYRIGHT.php to archive (source: <root>/COPYRIGHT.php)
+DEBUG   |131030 01:59:05|-- Adding CREDITS.php to archive (source: <root>/CREDITS.php)
+DEBUG   |131030 01:59:05|-- Adding INSTALL.php to archive (source: <root>/INSTALL.php)
+DEBUG   |131030 01:59:05|-- Adding LICENSE.php to archive (source: <root>/LICENSE.php)
+DEBUG   |131030 01:59:06|-- Adding LICENSES.php to archive (source: <root>/LICENSES.php)
+DEBUG   |131030 01:59:06|-- Adding configuration.php to archive (source: <root>/configuration.php)
+DEBUG   |131030 01:59:06|-- Adding configuration.php-dist to archive (source: <root>/configuration.php-dist)
+DEBUG   |131030 01:59:07|-- Adding htaccess.txt to archive (source: <root>/htaccess.txt)
+DEBUG   |131030 01:59:07|-- Adding index.php to archive (source: <root>/index.php)
+DEBUG   |131030 01:59:07|-- Adding index2.php to archive (source: <root>/index2.php)
+DEBUG   |131030 01:59:07|-- Adding robots.txt to archive (source: <root>/robots.txt)
+INFO    |131030 01:59:07|Scanning directories of <root>/xmlrpc
+INFO    |131030 01:59:07|Scanning files of <root>/xmlrpc
+DEBUG   |131030 01:59:07|Packing files
+DEBUG   |131030 01:59:07|-- Adding xmlrpc/client.php to archive (source: <root>/xmlrpc/client.php)
+DEBUG   |131030 01:59:07|-- Adding xmlrpc/index.php to archive (source: <root>/xmlrpc/index.php)
+INFO    |131030 01:59:07|Scanning directories of <root>/xmlrpc/includes
+INFO    |131030 01:59:07|Scanning files of <root>/xmlrpc/includes
+DEBUG   |131030 01:59:07|Packing files
+DEBUG   |131030 01:59:07|-- Adding xmlrpc/includes/application.php to archive (source: <root>/xmlrpc/includes/application.php)
+DEBUG   |131030 01:59:07|-- Adding xmlrpc/includes/defines.php to archive (source: <root>/xmlrpc/includes/defines.php)
+DEBUG   |131030 01:59:07|-- Adding xmlrpc/includes/framework.php to archive (source: <root>/xmlrpc/includes/framework.php)
+DEBUG   |131030 01:59:07|-- Adding xmlrpc/includes/index.html to archive (source: <root>/xmlrpc/includes/index.html)
+INFO    |131030 01:59:07|Scanning directories of <root>/xmlrpc/cache
+INFO    |131030 01:59:07|Scanning files of <root>/xmlrpc/cache
+DEBUG   |131030 01:59:07|Packing files
+DEBUG   |131030 01:59:07|-- Adding xmlrpc/cache/index.html to archive (source: <root>/xmlrpc/cache/index.html)
+INFO    |131030 01:59:07|Skipping subdirectories of directory <root>/tmp
+INFO    |131030 01:59:07|Skipping files of directory <root>/tmp
+DEBUG   |131030 01:59:07|Packing files
+DEBUG   |131030 01:59:07|-- Adding tmp/index.html to archive (source: <root>/tmp/index.html)
+INFO    |131030 01:59:07|Scanning directories of <root>/templates
+INFO    |131030 01:59:07|Scanning files of <root>/templates
+DEBUG   |131030 01:59:07|Packing files
+DEBUG   |131030 01:59:07|-- Adding templates/index.html to archive (source: <root>/templates/index.html)
+INFO    |131030 01:59:07|Scanning directories of <root>/templates/system
+INFO    |131030 01:59:07|Scanning files of <root>/templates/system
+DEBUG   |131030 01:59:07|Packing files
+DEBUG   |131030 01:59:07|-- Adding templates/system/component.php to archive (source: <root>/templates/system/component.php)
+DEBUG   |131030 01:59:07|-- Adding templates/system/error.php to archive (source: <root>/templates/system/error.php)
+DEBUG   |131030 01:59:07|-- Adding templates/system/index.html to archive (source: <root>/templates/system/index.html)
+DEBUG   |131030 01:59:07|-- Adding templates/system/index.php to archive (source: <root>/templates/system/index.php)
+DEBUG   |131030 01:59:07|-- Adding templates/system/offline.php to archive (source: <root>/templates/system/offline.php)
+INFO    |131030 01:59:07|Scanning directories of <root>/templates/system/images
+INFO    |131030 01:59:07|Scanning files of <root>/templates/system/images
+DEBUG   |131030 01:59:07|Packing files
+DEBUG   |131030 01:59:07|-- Adding templates/system/images/calendar.png to archive (source: <root>/templates/system/images/calendar.png)
+DEBUG   |131030 01:59:07|-- Adding templates/system/images/index.html to archive (source: <root>/templates/system/images/index.html)
+DEBUG   |131030 01:59:07|-- Adding templates/system/images/j_button2_blank.png to archive (source: <root>/templates/system/images/j_button2_blank.png)
+DEBUG   |131030 01:59:07|-- Adding templates/system/images/j_button2_image.png to archive (source: <root>/templates/system/images/j_button2_image.png)
+DEBUG   |131030 01:59:07|-- Adding templates/system/images/j_button2_left.png to archive (source: <root>/templates/system/images/j_button2_left.png)
+DEBUG   |131030 01:59:07|-- Adding templates/system/images/j_button2_pagebreak.png to archive (source: <root>/templates/system/images/j_button2_pagebreak.png)
+DEBUG   |131030 01:59:07|-- Adding templates/system/images/j_button2_readmore.png to archive (source: <root>/templates/system/images/j_button2_readmore.png)
+DEBUG   |131030 01:59:08|-- Adding templates/system/images/notice-alert.png to archive (source: <root>/templates/system/images/notice-alert.png)
+DEBUG   |131030 01:59:08|-- Adding templates/system/images/notice-download.png to archive (source: <root>/templates/system/images/notice-download.png)
+DEBUG   |131030 01:59:08|-- Adding templates/system/images/notice-info.png to archive (source: <root>/templates/system/images/notice-info.png)
+DEBUG   |131030 01:59:08|-- Adding templates/system/images/notice-note.png to archive (source: <root>/templates/system/images/notice-note.png)
+DEBUG   |131030 01:59:08|-- Adding templates/system/images/selector-arrow.png to archive (source: <root>/templates/system/images/selector-arrow.png)
+INFO    |131030 01:59:08|Scanning directories of <root>/templates/system/html
+INFO    |131030 01:59:08|Scanning files of <root>/templates/system/html
+DEBUG   |131030 01:59:08|Packing files
+DEBUG   |131030 01:59:08|-- Adding templates/system/html/index.html to archive (source: <root>/templates/system/html/index.html)
+DEBUG   |131030 01:59:08|-- Adding templates/system/html/modules.php to archive (source: <root>/templates/system/html/modules.php)
+INFO    |131030 01:59:08|Scanning directories of <root>/templates/system/css
+INFO    |131030 01:59:08|Scanning files of <root>/templates/system/css
+DEBUG   |131030 01:59:08|Packing files
+DEBUG   |131030 01:59:08|-- Adding templates/system/css/editor.css to archive (source: <root>/templates/system/css/editor.css)
+DEBUG   |131030 01:59:08|-- Adding templates/system/css/error.css to archive (source: <root>/templates/system/css/error.css)
+DEBUG   |131030 01:59:08|-- Adding templates/system/css/error_rtl.css to archive (source: <root>/templates/system/css/error_rtl.css)
+DEBUG   |131030 01:59:08|-- Adding templates/system/css/general.css to archive (source: <root>/templates/system/css/general.css)
+DEBUG   |131030 01:59:08|-- Adding templates/system/css/index.html to archive (source: <root>/templates/system/css/index.html)
+DEBUG   |131030 01:59:08|-- Adding templates/system/css/offline.css to archive (source: <root>/templates/system/css/offline.css)
+DEBUG   |131030 01:59:08|-- Adding templates/system/css/offline_rtl.css to archive (source: <root>/templates/system/css/offline_rtl.css)
+DEBUG   |131030 01:59:08|-- Adding templates/system/css/system.css to archive (source: <root>/templates/system/css/system.css)
+DEBUG   |131030 01:59:08|-- Adding templates/system/css/template.css to archive (source: <root>/templates/system/css/template.css)
+DEBUG   |131030 01:59:09|-- Adding templates/system/css/template_rtl.css to archive (source: <root>/templates/system/css/template_rtl.css)
+DEBUG   |131030 01:59:09|-- Adding templates/system/css/toolbar.css to archive (source: <root>/templates/system/css/toolbar.css)
+INFO    |131030 01:59:09|Scanning directories of <root>/templates/rhuk_milkyway
+INFO    |131030 01:59:09|Scanning files of <root>/templates/rhuk_milkyway
+DEBUG   |131030 01:59:09|Packing files
+DEBUG   |131030 01:59:09|-- Adding templates/rhuk_milkyway/component.php to archive (source: <root>/templates/rhuk_milkyway/component.php)
+DEBUG   |131030 01:59:09|-- Adding templates/rhuk_milkyway/index.php to archive (source: <root>/templates/rhuk_milkyway/index.php)
+INFO    |131030 01:59:09|Scanning directories of <root>/templates/rhuk_milkyway/html
+INFO    |131030 01:59:09|Scanning files of <root>/templates/rhuk_milkyway/html
+DEBUG   |131030 01:59:09|Packing files
+DEBUG   |131030 01:59:09|-- Adding templates/rhuk_milkyway/html/modules.php to archive (source: <root>/templates/rhuk_milkyway/html/modules.php)
+DEBUG   |131030 01:59:09|-- Adding templates/rhuk_milkyway/html/pagination.php to archive (source: <root>/templates/rhuk_milkyway/html/pagination.php)
+INFO    |131030 01:59:09|Scanning directories of <root>/templates/rhuk_milkyway/css
+INFO    |131030 01:59:09|Scanning files of <root>/templates/rhuk_milkyway/css
+DEBUG   |131030 01:59:09|Packing files
+DEBUG   |131030 01:59:09|-- Adding templates/rhuk_milkyway/css/template.css to archive (source: <root>/templates/rhuk_milkyway/css/template.css)
+DEBUG   |131030 01:59:09|-- Adding templates/rhuk_milkyway/css/template_rtl.css to archive (source: <root>/templates/rhuk_milkyway/css/template_rtl.css)
+INFO    |131030 01:59:09|Scanning directories of <root>/templates/ja_purity
+INFO    |131030 01:59:09|Scanning files of <root>/templates/ja_purity
+DEBUG   |131030 01:59:09|Packing files
+DEBUG   |131030 01:59:09|-- Adding templates/ja_purity/component.php to archive (source: <root>/templates/ja_purity/component.php)
+DEBUG   |131030 01:59:09|-- Adding templates/ja_purity/index.php to archive (source: <root>/templates/ja_purity/index.php)
+DEBUG   |131030 01:59:09|-- Adding templates/ja_purity/ja_templatetools.php to archive (source: <root>/templates/ja_purity/ja_templatetools.php)
+DEBUG   |131030 01:59:09|-- Adding templates/ja_purity/ja_vars.php to archive (source: <root>/templates/ja_purity/ja_vars.php)
+INFO    |131030 01:59:09|Scanning directories of <root>/templates/ja_purity/html
+INFO    |131030 01:59:09|Scanning files of <root>/templates/ja_purity/html
+DEBUG   |131030 01:59:09|Packing files
+DEBUG   |131030 01:59:09|-- Adding templates/ja_purity/html/modules.php to archive (source: <root>/templates/ja_purity/html/modules.php)
+DEBUG   |131030 01:59:09|-- Adding templates/ja_purity/html/pagination.php to archive (source: <root>/templates/ja_purity/html/pagination.php)
+INFO    |131030 01:59:09|Scanning directories of <root>/templates/ja_purity/html/com_content
+INFO    |131030 01:59:09|Scanning files of <root>/templates/ja_purity/html/com_content
+DEBUG   |131030 01:59:09|-- Adding templates/ja_purity/html/com_content to archive (source: <root>/templates/ja_purity/html/com_content)
+INFO    |131030 01:59:09|Empty directory <root>/templates/ja_purity/html/com_content
+INFO    |131030 01:59:09|Scanning directories of <root>/templates/ja_purity/html/com_content/category
+INFO    |131030 01:59:09|Scanning files of <root>/templates/ja_purity/html/com_content/category
+DEBUG   |131030 01:59:09|Packing files
+DEBUG   |131030 01:59:09|-- Adding templates/ja_purity/html/com_content/category/blog_item.php to archive (source: <root>/templates/ja_purity/html/com_content/category/blog_item.php)
+INFO    |131030 01:59:10|Scanning directories of <root>/templates/gk_coolfoto
+INFO    |131030 01:59:10|Scanning files of <root>/templates/gk_coolfoto
+DEBUG   |131030 01:59:10|Packing files
+DEBUG   |131030 01:59:10|-- Adding templates/gk_coolfoto/component.php to archive (source: <root>/templates/gk_coolfoto/component.php)
+DEBUG   |131030 01:59:10|-- Adding templates/gk_coolfoto/en-GB.tpl_gk_coolfoto.ini to archive (source: <root>/templates/gk_coolfoto/en-GB.tpl_gk_coolfoto.ini)
+DEBUG   |131030 01:59:10|-- Adding templates/gk_coolfoto/favicon.ico to archive (source: <root>/templates/gk_coolfoto/favicon.ico)
+DEBUG   |131030 01:59:10|-- Adding templates/gk_coolfoto/index.html to archive (source: <root>/templates/gk_coolfoto/index.html)
+DEBUG   |131030 01:59:10|-- Adding templates/gk_coolfoto/index.php to archive (source: <root>/templates/gk_coolfoto/index.php)
+DEBUG   |131030 01:59:10|-- Adding templates/gk_coolfoto/params.ini to archive (source: <root>/templates/gk_coolfoto/params.ini)
+DEBUG   |131030 01:59:10|-- Adding templates/gk_coolfoto/templateDetails.xml to archive (source: <root>/templates/gk_coolfoto/templateDetails.xml)
+DEBUG   |131030 01:59:10|-- Adding templates/gk_coolfoto/template_thumbnail.png to archive (source: <root>/templates/gk_coolfoto/template_thumbnail.png)
+INFO    |131030 01:59:10|Scanning directories of <root>/templates/gk_coolfoto/lib
+INFO    |131030 01:59:10|Scanning files of <root>/templates/gk_coolfoto/lib
+DEBUG   |131030 01:59:10|Packing files
+DEBUG   |131030 01:59:10|-- Adding templates/gk_coolfoto/lib/index.html to archive (source: <root>/templates/gk_coolfoto/lib/index.html)
+INFO    |131030 01:59:10|Scanning directories of <root>/templates/gk_coolfoto/lib/scripts
+INFO    |131030 01:59:10|Scanning files of <root>/templates/gk_coolfoto/lib/scripts
+DEBUG   |131030 01:59:10|Packing files
+DEBUG   |131030 01:59:10|-- Adding templates/gk_coolfoto/lib/scripts/gk_image_show.js to archive (source: <root>/templates/gk_coolfoto/lib/scripts/gk_image_show.js)
+DEBUG   |131030 01:59:10|-- Adding templates/gk_coolfoto/lib/scripts/index.html to archive (source: <root>/templates/gk_coolfoto/lib/scripts/index.html)
+DEBUG   |131030 01:59:11|-- Adding templates/gk_coolfoto/lib/scripts/menu.php to archive (source: <root>/templates/gk_coolfoto/lib/scripts/menu.php)
+DEBUG   |131030 01:59:11|-- Adding templates/gk_coolfoto/lib/scripts/template_scripts.js to archive (source: <root>/templates/gk_coolfoto/lib/scripts/template_scripts.js)
+INFO    |131030 01:59:11|Scanning directories of <root>/templates/gk_coolfoto/lib/php
+INFO    |131030 01:59:11|Scanning files of <root>/templates/gk_coolfoto/lib/php
+DEBUG   |131030 01:59:11|Packing files
+DEBUG   |131030 01:59:11|-- Adding templates/gk_coolfoto/lib/php/gk_footer.php to archive (source: <root>/templates/gk_coolfoto/lib/php/gk_footer.php)
+DEBUG   |131030 01:59:11|-- Adding templates/gk_coolfoto/lib/php/gk_head.php to archive (source: <root>/templates/gk_coolfoto/lib/php/gk_head.php)
+DEBUG   |131030 01:59:11|-- Adding templates/gk_coolfoto/lib/php/gk_ie6.php to archive (source: <root>/templates/gk_coolfoto/lib/php/gk_ie6.php)
+DEBUG   |131030 01:59:11|-- Adding templates/gk_coolfoto/lib/php/gk_setup.php to archive (source: <root>/templates/gk_coolfoto/lib/php/gk_setup.php)
+DEBUG   |131030 01:59:11|-- Adding templates/gk_coolfoto/lib/php/index.html to archive (source: <root>/templates/gk_coolfoto/lib/php/index.html)
+DEBUG   |131030 01:59:12|-- Adding templates/gk_coolfoto/lib/php/menu.php to archive (source: <root>/templates/gk_coolfoto/lib/php/menu.php)
+INFO    |131030 01:59:12|Scanning directories of <root>/templates/gk_coolfoto/images
+INFO    |131030 01:59:12|Scanning files of <root>/templates/gk_coolfoto/images
+DEBUG   |131030 01:59:12|Packing files
+DEBUG   |131030 01:59:12|-- Adding templates/gk_coolfoto/images/coolfoto_image.jpg to archive (source: <root>/templates/gk_coolfoto/images/coolfoto_image.jpg)
+DEBUG   |131030 01:59:12|-- Adding templates/gk_coolfoto/images/edit.png to archive (source: <root>/templates/gk_coolfoto/images/edit.png)
+DEBUG   |131030 01:59:12|-- Adding templates/gk_coolfoto/images/edit_unpublished.png to archive (source: <root>/templates/gk_coolfoto/images/edit_unpublished.png)
+DEBUG   |131030 01:59:12|-- Adding templates/gk_coolfoto/images/emailButton.png to archive (source: <root>/templates/gk_coolfoto/images/emailButton.png)
+DEBUG   |131030 01:59:12|-- Adding templates/gk_coolfoto/images/ie7.gif to archive (source: <root>/templates/gk_coolfoto/images/ie7.gif)
+DEBUG   |131030 01:59:12|-- Adding templates/gk_coolfoto/images/index.html to archive (source: <root>/templates/gk_coolfoto/images/index.html)
+DEBUG   |131030 01:59:13|-- Adding templates/gk_coolfoto/images/pdf_button.png to archive (source: <root>/templates/gk_coolfoto/images/pdf_button.png)
+DEBUG   |131030 01:59:13|-- Adding templates/gk_coolfoto/images/printButton.png to archive (source: <root>/templates/gk_coolfoto/images/printButton.png)
+INFO    |131030 01:59:13|Scanning directories of <root>/templates/gk_coolfoto/images/style2
+INFO    |131030 01:59:13|Scanning files of <root>/templates/gk_coolfoto/images/style2
+DEBUG   |131030 01:59:13|Packing files
+DEBUG   |131030 01:59:13|-- Adding templates/gk_coolfoto/images/style2/bottom_bar_bg1.png to archive (source: <root>/templates/gk_coolfoto/images/style2/bottom_bar_bg1.png)
+DEBUG   |131030 01:59:13|-- Adding templates/gk_coolfoto/images/style2/bottom_bar_bg2.png to archive (source: <root>/templates/gk_coolfoto/images/style2/bottom_bar_bg2.png)
+DEBUG   |131030 01:59:13|-- Adding templates/gk_coolfoto/images/style2/breadcrumbs_arrow.png to archive (source: <root>/templates/gk_coolfoto/images/style2/breadcrumbs_arrow.png)
+DEBUG   |131030 01:59:13|-- Adding templates/gk_coolfoto/images/style2/breadcrumbs_bgl.png to archive (source: <root>/templates/gk_coolfoto/images/style2/breadcrumbs_bgl.png)
+DEBUG   |131030 01:59:14|-- Adding templates/gk_coolfoto/images/style2/breadcrumbs_bgl_hover.png to archive (source: <root>/templates/gk_coolfoto/images/style2/breadcrumbs_bgl_hover.png)
+DEBUG   |131030 01:59:14|-- Adding templates/gk_coolfoto/images/style2/breadcrumbs_bgr.png to archive (source: <root>/templates/gk_coolfoto/images/style2/breadcrumbs_bgr.png)
+DEBUG   |131030 01:59:14|-- Adding templates/gk_coolfoto/images/style2/breadcrumbs_bgr_hover.png to archive (source: <root>/templates/gk_coolfoto/images/style2/breadcrumbs_bgr_hover.png)
+DEBUG   |131030 01:59:14|-- Adding templates/gk_coolfoto/images/style2/button_bg.png to archive (source: <root>/templates/gk_coolfoto/images/style2/button_bg.png)
+DEBUG   |131030 01:59:14|-- Adding templates/gk_coolfoto/images/style2/button_bg_dark.png to archive (source: <root>/templates/gk_coolfoto/images/style2/button_bg_dark.png)
+DEBUG   |131030 01:59:14|-- Adding templates/gk_coolfoto/images/style2/button_bg_orange.png to archive (source: <root>/templates/gk_coolfoto/images/style2/button_bg_orange.png)
+DEBUG   |131030 01:59:14|-- Adding templates/gk_coolfoto/images/style2/clouds_bg.jpg to archive (source: <root>/templates/gk_coolfoto/images/style2/clouds_bg.jpg)
+DEBUG   |131030 01:59:14|-- Adding templates/gk_coolfoto/images/style2/clouds_bottom_bg.png to archive (source: <root>/templates/gk_coolfoto/images/style2/clouds_bottom_bg.png)
+DEBUG   |131030 01:59:15|-- Adding templates/gk_coolfoto/images/style2/header_background.png to archive (source: <root>/templates/gk_coolfoto/images/style2/header_background.png)
+DEBUG   |131030 01:59:15|-- Adding templates/gk_coolfoto/images/style2/index.html to archive (source: <root>/templates/gk_coolfoto/images/style2/index.html)
+DEBUG   |131030 01:59:15|-- Adding templates/gk_coolfoto/images/style2/li_bullet.png to archive (source: <root>/templates/gk_coolfoto/images/style2/li_bullet.png)
+DEBUG   |131030 01:59:15|-- Adding templates/gk_coolfoto/images/style2/li_bullet_dark.png to archive (source: <root>/templates/gk_coolfoto/images/style2/li_bullet_dark.png)
+DEBUG   |131030 01:59:15|-- Adding templates/gk_coolfoto/images/style2/li_bullet_dark_hover.png to archive (source: <root>/templates/gk_coolfoto/images/style2/li_bullet_dark_hover.png)
+DEBUG   |131030 01:59:15|-- Adding templates/gk_coolfoto/images/style2/li_bullet_hover.png to archive (source: <root>/templates/gk_coolfoto/images/style2/li_bullet_hover.png)
+DEBUG   |131030 01:59:15|-- Adding templates/gk_coolfoto/images/style2/li_bullet_light.png to archive (source: <root>/templates/gk_coolfoto/images/style2/li_bullet_light.png)
+DEBUG   |131030 01:59:15|-- Adding templates/gk_coolfoto/images/style2/li_bullet_light_blue_hover.png to archive (source: <root>/templates/gk_coolfoto/images/style2/li_bullet_light_blue_hover.png)
+DEBUG   |131030 01:59:15|-- Adding templates/gk_coolfoto/images/style2/li_bullet_light_hover.png to archive (source: <root>/templates/gk_coolfoto/images/style2/li_bullet_light_hover.png)
+DEBUG   |131030 01:59:16|-- Adding templates/gk_coolfoto/images/style2/login_bg_left.png to archive (source: <root>/templates/gk_coolfoto/images/style2/login_bg_left.png)
+DEBUG   |131030 01:59:16|-- Adding templates/gk_coolfoto/images/style2/login_bg_right.png to archive (source: <root>/templates/gk_coolfoto/images/style2/login_bg_right.png)
+DEBUG   |131030 01:59:16|-- Adding templates/gk_coolfoto/images/style2/menu_bg.png to archive (source: <root>/templates/gk_coolfoto/images/style2/menu_bg.png)
+DEBUG   |131030 01:59:16|-- Adding templates/gk_coolfoto/images/style2/menu_li_bullet.png to archive (source: <root>/templates/gk_coolfoto/images/style2/menu_li_bullet.png)
+DEBUG   |131030 01:59:16|-- Adding templates/gk_coolfoto/images/style2/module_bg.png to archive (source: <root>/templates/gk_coolfoto/images/style2/module_bg.png)
+DEBUG   |131030 01:59:16|-- Adding templates/gk_coolfoto/images/style2/moduletable_h3.png to archive (source: <root>/templates/gk_coolfoto/images/style2/moduletable_h3.png)
+DEBUG   |131030 01:59:16|-- Adding templates/gk_coolfoto/images/style2/moduletable_h3_blue.png to archive (source: <root>/templates/gk_coolfoto/images/style2/moduletable_h3_blue.png)
+DEBUG   |131030 01:59:16|-- Adding templates/gk_coolfoto/images/style2/moduletable_h3_orange.png to archive (source: <root>/templates/gk_coolfoto/images/style2/moduletable_h3_orange.png)
+DEBUG   |131030 01:59:16|-- Adding templates/gk_coolfoto/images/style2/readmore_button_blue.png to archive (source: <root>/templates/gk_coolfoto/images/style2/readmore_button_blue.png)
+DEBUG   |131030 01:59:16|-- Adding templates/gk_coolfoto/images/style2/readmore_button_dark.png to archive (source: <root>/templates/gk_coolfoto/images/style2/readmore_button_dark.png)
+DEBUG   |131030 01:59:16|-- Adding templates/gk_coolfoto/images/style2/readmore_button_orange.png to archive (source: <root>/templates/gk_coolfoto/images/style2/readmore_button_orange.png)
+DEBUG   |131030 01:59:17|-- Adding templates/gk_coolfoto/images/style2/search_bottom.png to archive (source: <root>/templates/gk_coolfoto/images/style2/search_bottom.png)
+DEBUG   |131030 01:59:17|-- Adding templates/gk_coolfoto/images/style2/search_button.png to archive (source: <root>/templates/gk_coolfoto/images/style2/search_button.png)
+DEBUG   |131030 01:59:17|-- Adding templates/gk_coolfoto/images/style2/search_input.png to archive (source: <root>/templates/gk_coolfoto/images/style2/search_input.png)
+DEBUG   |131030 01:59:17|-- Adding templates/gk_coolfoto/images/style2/social_network_icons.png to archive (source: <root>/templates/gk_coolfoto/images/style2/social_network_icons.png)
+DEBUG   |131030 01:59:17|-- Adding templates/gk_coolfoto/images/style2/topdady_bullet.png to archive (source: <root>/templates/gk_coolfoto/images/style2/topdady_bullet.png)
+DEBUG   |131030 01:59:17|-- Adding templates/gk_coolfoto/images/style2/topdady_bullet_hover.png to archive (source: <root>/templates/gk_coolfoto/images/style2/topdady_bullet_hover.png)
+INFO    |131030 01:59:18|Scanning directories of <root>/templates/gk_coolfoto/images/style2/gk_stuff
+INFO    |131030 01:59:18|Scanning files of <root>/templates/gk_coolfoto/images/style2/gk_stuff
+DEBUG   |131030 01:59:18|Packing files
+DEBUG   |131030 01:59:18|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/ImageShow_bg.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/ImageShow_bg.png)
+DEBUG   |131030 01:59:18|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/bullet1ul.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/bullet1ul.png)
+DEBUG   |131030 01:59:18|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/bullet2ul.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/bullet2ul.png)
+DEBUG   |131030 01:59:19|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/bullet3ul.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/bullet3ul.png)
+DEBUG   |131030 01:59:19|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/bullet_ol_1.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/bullet_ol_1.png)
+DEBUG   |131030 01:59:19|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/bullet_ol_1_color.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/bullet_ol_1_color.png)
+DEBUG   |131030 01:59:19|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/bullet_ol_1_dark.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/bullet_ol_1_dark.png)
+DEBUG   |131030 01:59:19|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/bullet_ol_2.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/bullet_ol_2.png)
+DEBUG   |131030 01:59:19|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/bullet_ol_2_color.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/bullet_ol_2_color.png)
+DEBUG   |131030 01:59:19|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/bullet_squ1_color.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/bullet_squ1_color.png)
+DEBUG   |131030 01:59:19|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/bullet_squ1_dark.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/bullet_squ1_dark.png)
+DEBUG   |131030 01:59:19|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/bullets_bg.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/bullets_bg.png)
+DEBUG   |131030 01:59:19|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/button_bg.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/button_bg.png)
+DEBUG   |131030 01:59:19|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/close1.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/close1.png)
+DEBUG   |131030 01:59:20|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/close2.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/close2.png)
+DEBUG   |131030 01:59:20|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/close_button.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/close_button.png)
+DEBUG   |131030 01:59:20|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/details_button.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/details_button.png)
+DEBUG   |131030 01:59:20|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/index.html to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/index.html)
+DEBUG   |131030 01:59:20|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/loader.gif to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/loader.gif)
+DEBUG   |131030 01:59:20|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/module_bullets.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/module_bullets.png)
+DEBUG   |131030 01:59:20|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/npro_bullets.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/npro_bullets.png)
+DEBUG   |131030 01:59:20|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/npro_buttons.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/npro_buttons.png)
+DEBUG   |131030 01:59:21|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/open1.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/open1.png)
+DEBUG   |131030 01:59:21|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/open2.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/open2.png)
+DEBUG   |131030 01:59:21|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/popup_bottom.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/popup_bottom.png)
+DEBUG   |131030 01:59:21|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/popup_middle.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/popup_middle.png)
+DEBUG   |131030 01:59:21|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/popup_top.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/popup_top.png)
+DEBUG   |131030 01:59:21|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/tab.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/tab.png)
+DEBUG   |131030 01:59:21|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/tab_active.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/tab_active.png)
+DEBUG   |131030 01:59:21|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/tab_blue.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/tab_blue.png)
+DEBUG   |131030 01:59:21|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/tab_blue_right.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/tab_blue_right.png)
+DEBUG   |131030 01:59:21|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/tab_inactive.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/tab_inactive.png)
+DEBUG   |131030 01:59:21|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/tab_orange.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/tab_orange.png)
+DEBUG   |131030 01:59:21|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/tab_orange_right.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/tab_orange_right.png)
+DEBUG   |131030 01:59:21|-- Adding templates/gk_coolfoto/images/style2/gk_stuff/tab_right.png to archive (source: <root>/templates/gk_coolfoto/images/style2/gk_stuff/tab_right.png)
+INFO    |131030 01:59:21|Scanning directories of <root>/templates/gk_coolfoto/images/style1
+INFO    |131030 01:59:21|Scanning files of <root>/templates/gk_coolfoto/images/style1
+DEBUG   |131030 01:59:21|Packing files
+DEBUG   |131030 01:59:21|-- Adding templates/gk_coolfoto/images/style1/button_bg.png to archive (source: <root>/templates/gk_coolfoto/images/style1/button_bg.png)
+DEBUG   |131030 01:59:21|-- Adding templates/gk_coolfoto/images/style1/button_bg_blue.png to archive (source: <root>/templates/gk_coolfoto/images/style1/button_bg_blue.png)
+DEBUG   |131030 01:59:21|-- Adding templates/gk_coolfoto/images/style1/button_bg_dark.png to archive (source: <root>/templates/gk_coolfoto/images/style1/button_bg_dark.png)
+INFO    |131030 01:59:21|Proactive step break - file: <root>/templates/gk_coolfoto/images/style1/header_background_left.png - size: 282736 - req. time 57.65
+DEBUG   |131030 01:59:21|----- Finished operation 2 ------
+DEBUG   |131030 01:59:21|Successful Smart algorithm on AECoreDomainPack
+DEBUG   |131030 01:59:21|====== Finished Step number 3 ======
+DEBUG   |131030 01:59:21|*** Engine steps batching: Break flag detected.
+DEBUG   |131030 01:59:21|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |131030 01:59:21|No need to sleep; execution time: 17026.645898819 msec; min. exec. time: 2000 msec
+DEBUG   |131030 01:59:21|Saving Kettenrad instance lazy
+DEBUG   |131030 01:59:22|Closing SQL dump file.
+DEBUG   |131030 01:59:22| -- Loaded stored Akeeba Factory (lazy)
+DEBUG   |131030 01:59:22|====== Starting Step number 4 ======
+DEBUG   |131030 01:59:22|Packing files
+DEBUG   |131030 01:59:22|-- Adding templates/gk_coolfoto/images/style1/header_background_left.png to archive (source: <root>/templates/gk_coolfoto/images/style1/header_background_left.png)
+DEBUG   |131030 01:59:23|-- Adding templates/gk_coolfoto/images/style1/index.html to archive (source: <root>/templates/gk_coolfoto/images/style1/index.html)
+DEBUG   |131030 01:59:23|-- Adding templates/gk_coolfoto/images/style1/li_bullet.png to archive (source: <root>/templates/gk_coolfoto/images/style1/li_bullet.png)
+DEBUG   |131030 01:59:23|-- Adding templates/gk_coolfoto/images/style1/li_bullet_dark.png to archive (source: <root>/templates/gk_coolfoto/images/style1/li_bullet_dark.png)
+DEBUG   |131030 01:59:23|-- Adding templates/gk_coolfoto/images/style1/li_bullet_dark_hover.png to archive (source: <root>/templates/gk_coolfoto/images/style1/li_bullet_dark_hover.png)
+DEBUG   |131030 01:59:23|-- Adding templates/gk_coolfoto/images/style1/li_bullet_hover.png to archive (source: <root>/templates/gk_coolfoto/images/style1/li_bullet_hover.png)
+DEBUG   |131030 01:59:23|-- Adding templates/gk_coolfoto/images/style1/li_bullet_light.png to archive (source: <root>/templates/gk_coolfoto/images/style1/li_bullet_light.png)
+DEBUG   |131030 01:59:23|-- Adding templates/gk_coolfoto/images/style1/li_bullet_light_blue_hover.png to archive (source: <root>/templates/gk_coolfoto/images/style1/li_bullet_light_blue_hover.png)
+DEBUG   |131030 01:59:23|-- Adding templates/gk_coolfoto/images/style1/li_bullet_light_hover.png to archive (source: <root>/templates/gk_coolfoto/images/style1/li_bullet_light_hover.png)
+DEBUG   |131030 01:59:23|-- Adding templates/gk_coolfoto/images/style1/login_bg_left.png to archive (source: <root>/templates/gk_coolfoto/images/style1/login_bg_left.png)
+DEBUG   |131030 01:59:23|-- Adding templates/gk_coolfoto/images/style1/login_bg_right.png to archive (source: <root>/templates/gk_coolfoto/images/style1/login_bg_right.png)
+DEBUG   |131030 01:59:23|-- Adding templates/gk_coolfoto/images/style1/logo.png to archive (source: <root>/templates/gk_coolfoto/images/style1/logo.png)
+DEBUG   |131030 01:59:24|-- Adding templates/gk_coolfoto/images/style1/menu_li_bullet.png to archive (source: <root>/templates/gk_coolfoto/images/style1/menu_li_bullet.png)
+DEBUG   |131030 01:59:24|-- Adding templates/gk_coolfoto/images/style1/module_bg.png to archive (source: <root>/templates/gk_coolfoto/images/style1/module_bg.png)
+DEBUG   |131030 01:59:24|-- Adding templates/gk_coolfoto/images/style1/moduletable_h3.png to archive (source: <root>/templates/gk_coolfoto/images/style1/moduletable_h3.png)
+DEBUG   |131030 01:59:24|-- Adding templates/gk_coolfoto/images/style1/moduletable_h3_blue.png to archive (source: <root>/templates/gk_coolfoto/images/style1/moduletable_h3_blue.png)
+DEBUG   |131030 01:59:24|-- Adding templates/gk_coolfoto/images/style1/moduletable_h3_pink.png to archive (source: <root>/templates/gk_coolfoto/images/style1/moduletable_h3_pink.png)
+DEBUG   |131030 01:59:24|-- Adding templates/gk_coolfoto/images/style1/readmore_button_blue.png to archive (source: <root>/templates/gk_coolfoto/images/style1/readmore_button_blue.png)
+DEBUG   |131030 01:59:24|-- Adding templates/gk_coolfoto/images/style1/readmore_button_dark.png to archive (source: <root>/templates/gk_coolfoto/images/style1/readmore_button_dark.png)
+DEBUG   |131030 01:59:25|-- Adding templates/gk_coolfoto/images/style1/readmore_button_pink.png to archive (source: <root>/templates/gk_coolfoto/images/style1/readmore_button_pink.png)
+DEBUG   |131030 01:59:25|-- Adding templates/gk_coolfoto/images/style1/search_bottom.png to archive (source: <root>/templates/gk_coolfoto/images/style1/search_bottom.png)
+DEBUG   |131030 01:59:25|-- Adding templates/gk_coolfoto/images/style1/search_button.png to archive (source: <root>/templates/gk_coolfoto/images/style1/search_button.png)
+DEBUG   |131030 01:59:26|-- Adding templates/gk_coolfoto/images/style1/search_input.png to archive (source: <root>/templates/gk_coolfoto/images/style1/search_input.png)
+DEBUG   |131030 01:59:26|-- Adding templates/gk_coolfoto/images/style1/social_network_icons.png to archive (source: <root>/templates/gk_coolfoto/images/style1/social_network_icons.png)
+DEBUG   |131030 01:59:26|-- Adding templates/gk_coolfoto/images/style1/topdady_bullet.png to archive (source: <root>/templates/gk_coolfoto/images/style1/topdady_bullet.png)
+DEBUG   |131030 01:59:26|-- Adding templates/gk_coolfoto/images/style1/topdady_bullet_hover.png to archive (source: <root>/templates/gk_coolfoto/images/style1/topdady_bullet_hover.png)
+INFO    |131030 01:59:27|Scanning directories of <root>/templates/gk_coolfoto/images/style1/gk_stuff
+INFO    |131030 01:59:27|Scanning files of <root>/templates/gk_coolfoto/images/style1/gk_stuff
+DEBUG   |131030 01:59:27|Packing files
+DEBUG   |131030 01:59:27|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/ImageShow_bg.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/ImageShow_bg.png)
+DEBUG   |131030 01:59:27|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/bullet1ul.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/bullet1ul.png)
+DEBUG   |131030 01:59:27|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/bullet2ul.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/bullet2ul.png)
+DEBUG   |131030 01:59:27|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/bullet3ul.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/bullet3ul.png)
+DEBUG   |131030 01:59:27|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/bullet_ol_1.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/bullet_ol_1.png)
+DEBUG   |131030 01:59:28|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/bullet_ol_1_color.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/bullet_ol_1_color.png)
+DEBUG   |131030 01:59:28|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/bullet_ol_1_dark.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/bullet_ol_1_dark.png)
+DEBUG   |131030 01:59:28|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/bullet_ol_2.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/bullet_ol_2.png)
+DEBUG   |131030 01:59:28|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/bullet_ol_2_color.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/bullet_ol_2_color.png)
+DEBUG   |131030 01:59:28|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/bullet_squ1_color.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/bullet_squ1_color.png)
+DEBUG   |131030 01:59:28|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/bullet_squ1_dark.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/bullet_squ1_dark.png)
+DEBUG   |131030 01:59:28|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/bullets_bg.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/bullets_bg.png)
+DEBUG   |131030 01:59:28|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/button_bg.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/button_bg.png)
+DEBUG   |131030 01:59:28|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/close1.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/close1.png)
+DEBUG   |131030 01:59:28|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/close2.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/close2.png)
+DEBUG   |131030 01:59:28|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/close_button.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/close_button.png)
+DEBUG   |131030 01:59:29|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/details_button.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/details_button.png)
+DEBUG   |131030 01:59:29|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/index.html to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/index.html)
+DEBUG   |131030 01:59:29|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/loader.gif to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/loader.gif)
+DEBUG   |131030 01:59:29|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/module_bullets.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/module_bullets.png)
+DEBUG   |131030 01:59:29|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/npro_bullets.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/npro_bullets.png)
+DEBUG   |131030 01:59:29|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/npro_buttons.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/npro_buttons.png)
+DEBUG   |131030 01:59:29|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/open1.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/open1.png)
+DEBUG   |131030 01:59:29|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/open2.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/open2.png)
+DEBUG   |131030 01:59:29|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/popup_bottom.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/popup_bottom.png)
+DEBUG   |131030 01:59:30|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/popup_middle.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/popup_middle.png)
+DEBUG   |131030 01:59:30|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/popup_top.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/popup_top.png)
+DEBUG   |131030 01:59:30|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/tab.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/tab.png)
+DEBUG   |131030 01:59:30|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/tab_active.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/tab_active.png)
+DEBUG   |131030 01:59:30|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/tab_blue.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/tab_blue.png)
+DEBUG   |131030 01:59:30|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/tab_blue_right.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/tab_blue_right.png)
+DEBUG   |131030 01:59:30|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/tab_inactive.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/tab_inactive.png)
+DEBUG   |131030 01:59:31|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/tab_pink.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/tab_pink.png)
+DEBUG   |131030 01:59:31|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/tab_pink_right.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/tab_pink_right.png)
+DEBUG   |131030 01:59:31|-- Adding templates/gk_coolfoto/images/style1/gk_stuff/tab_right.png to archive (source: <root>/templates/gk_coolfoto/images/style1/gk_stuff/tab_right.png)
+INFO    |131030 01:59:31|Scanning directories of <root>/templates/gk_coolfoto/images/icons
+INFO    |131030 01:59:31|Scanning files of <root>/templates/gk_coolfoto/images/icons
+DEBUG   |131030 01:59:31|Packing files
+DEBUG   |131030 01:59:31|-- Adding templates/gk_coolfoto/images/icons/accept.png to archive (source: <root>/templates/gk_coolfoto/images/icons/accept.png)
+DEBUG   |131030 01:59:31|-- Adding templates/gk_coolfoto/images/icons/add.png to archive (source: <root>/templates/gk_coolfoto/images/icons/add.png)
+DEBUG   |131030 01:59:31|-- Adding templates/gk_coolfoto/images/icons/audio.gif to archive (source: <root>/templates/gk_coolfoto/images/icons/audio.gif)
+DEBUG   |131030 01:59:31|-- Adding templates/gk_coolfoto/images/icons/box.png to archive (source: <root>/templates/gk_coolfoto/images/icons/box.png)
+DEBUG   |131030 01:59:31|-- Adding templates/gk_coolfoto/images/icons/brick.png to archive (source: <root>/templates/gk_coolfoto/images/icons/brick.png)
+DEBUG   |131030 01:59:32|-- Adding templates/gk_coolfoto/images/icons/calendar.png to archive (source: <root>/templates/gk_coolfoto/images/icons/calendar.png)
+DEBUG   |131030 01:59:32|-- Adding templates/gk_coolfoto/images/icons/camera.png to archive (source: <root>/templates/gk_coolfoto/images/icons/camera.png)
+DEBUG   |131030 01:59:32|-- Adding templates/gk_coolfoto/images/icons/cart.png to archive (source: <root>/templates/gk_coolfoto/images/icons/cart.png)
+DEBUG   |131030 01:59:32|-- Adding templates/gk_coolfoto/images/icons/cd.png to archive (source: <root>/templates/gk_coolfoto/images/icons/cd.png)
+DEBUG   |131030 01:59:32|-- Adding templates/gk_coolfoto/images/icons/chart_bar.png to archive (source: <root>/templates/gk_coolfoto/images/icons/chart_bar.png)
+DEBUG   |131030 01:59:32|-- Adding templates/gk_coolfoto/images/icons/chart_line.png to archive (source: <root>/templates/gk_coolfoto/images/icons/chart_line.png)
+DEBUG   |131030 01:59:32|-- Adding templates/gk_coolfoto/images/icons/chart_pie.png to archive (source: <root>/templates/gk_coolfoto/images/icons/chart_pie.png)
+DEBUG   |131030 01:59:32|-- Adding templates/gk_coolfoto/images/icons/clock.png to archive (source: <root>/templates/gk_coolfoto/images/icons/clock.png)
+DEBUG   |131030 01:59:32|-- Adding templates/gk_coolfoto/images/icons/cog.png to archive (source: <root>/templates/gk_coolfoto/images/icons/cog.png)
+DEBUG   |131030 01:59:33|-- Adding templates/gk_coolfoto/images/icons/coins.png to archive (source: <root>/templates/gk_coolfoto/images/icons/coins.png)
+DEBUG   |131030 01:59:33|-- Adding templates/gk_coolfoto/images/icons/compress.png to archive (source: <root>/templates/gk_coolfoto/images/icons/compress.png)
+DEBUG   |131030 01:59:33|-- Adding templates/gk_coolfoto/images/icons/computer.png to archive (source: <root>/templates/gk_coolfoto/images/icons/computer.png)
+DEBUG   |131030 01:59:33|-- Adding templates/gk_coolfoto/images/icons/credit.gif to archive (source: <root>/templates/gk_coolfoto/images/icons/credit.gif)
+DEBUG   |131030 01:59:33|-- Adding templates/gk_coolfoto/images/icons/cross.png to archive (source: <root>/templates/gk_coolfoto/images/icons/cross.png)
+DEBUG   |131030 01:59:33|-- Adding templates/gk_coolfoto/images/icons/date.gif to archive (source: <root>/templates/gk_coolfoto/images/icons/date.gif)
+DEBUG   |131030 01:59:33|-- Adding templates/gk_coolfoto/images/icons/disk.png to archive (source: <root>/templates/gk_coolfoto/images/icons/disk.png)
+DEBUG   |131030 01:59:33|-- Adding templates/gk_coolfoto/images/icons/email.gif to archive (source: <root>/templates/gk_coolfoto/images/icons/email.gif)
+DEBUG   |131030 01:59:33|-- Adding templates/gk_coolfoto/images/icons/error.png to archive (source: <root>/templates/gk_coolfoto/images/icons/error.png)
+DEBUG   |131030 01:59:33|-- Adding templates/gk_coolfoto/images/icons/exclamation.png to archive (source: <root>/templates/gk_coolfoto/images/icons/exclamation.png)
+DEBUG   |131030 01:59:33|-- Adding templates/gk_coolfoto/images/icons/feed.gif to archive (source: <root>/templates/gk_coolfoto/images/icons/feed.gif)
+DEBUG   |131030 01:59:33|-- Adding templates/gk_coolfoto/images/icons/film.png to archive (source: <root>/templates/gk_coolfoto/images/icons/film.png)
+DEBUG   |131030 01:59:34|-- Adding templates/gk_coolfoto/images/icons/folder.png to archive (source: <root>/templates/gk_coolfoto/images/icons/folder.png)
+DEBUG   |131030 01:59:34|-- Adding templates/gk_coolfoto/images/icons/group.png to archive (source: <root>/templates/gk_coolfoto/images/icons/group.png)
+DEBUG   |131030 01:59:34|-- Adding templates/gk_coolfoto/images/icons/heart.png to archive (source: <root>/templates/gk_coolfoto/images/icons/heart.png)
+DEBUG   |131030 01:59:34|-- Adding templates/gk_coolfoto/images/icons/help.gif to archive (source: <root>/templates/gk_coolfoto/images/icons/help.gif)
+DEBUG   |131030 01:59:34|-- Adding templates/gk_coolfoto/images/icons/house.png to archive (source: <root>/templates/gk_coolfoto/images/icons/house.png)
+DEBUG   |131030 01:59:34|-- Adding templates/gk_coolfoto/images/icons/image.png to archive (source: <root>/templates/gk_coolfoto/images/icons/image.png)
+DEBUG   |131030 01:59:34|-- Adding templates/gk_coolfoto/images/icons/images.png to archive (source: <root>/templates/gk_coolfoto/images/icons/images.png)
+DEBUG   |131030 01:59:34|-- Adding templates/gk_coolfoto/images/icons/index.html to archive (source: <root>/templates/gk_coolfoto/images/icons/index.html)
+DEBUG   |131030 01:59:34|-- Adding templates/gk_coolfoto/images/icons/info.gif to archive (source: <root>/templates/gk_coolfoto/images/icons/info.gif)
+DEBUG   |131030 01:59:35|-- Adding templates/gk_coolfoto/images/icons/information.png to archive (source: <root>/templates/gk_coolfoto/images/icons/information.png)
+DEBUG   |131030 01:59:35|-- Adding templates/gk_coolfoto/images/icons/lock.png to archive (source: <root>/templates/gk_coolfoto/images/icons/lock.png)
+DEBUG   |131030 01:59:35|-- Adding templates/gk_coolfoto/images/icons/magnifier.png to archive (source: <root>/templates/gk_coolfoto/images/icons/magnifier.png)
+DEBUG   |131030 01:59:36|-- Adding templates/gk_coolfoto/images/icons/money.png to archive (source: <root>/templates/gk_coolfoto/images/icons/money.png)
+DEBUG   |131030 01:59:36|-- Adding templates/gk_coolfoto/images/icons/new.png to archive (source: <root>/templates/gk_coolfoto/images/icons/new.png)
+DEBUG   |131030 01:59:36|-- Adding templates/gk_coolfoto/images/icons/note.png to archive (source: <root>/templates/gk_coolfoto/images/icons/note.png)
+DEBUG   |131030 01:59:36|-- Adding templates/gk_coolfoto/images/icons/page.png to archive (source: <root>/templates/gk_coolfoto/images/icons/page.png)
+DEBUG   |131030 01:59:36|-- Adding templates/gk_coolfoto/images/icons/page_white.png to archive (source: <root>/templates/gk_coolfoto/images/icons/page_white.png)
+DEBUG   |131030 01:59:37|-- Adding templates/gk_coolfoto/images/icons/plugin.png to archive (source: <root>/templates/gk_coolfoto/images/icons/plugin.png)
+DEBUG   |131030 01:59:37|-- Adding templates/gk_coolfoto/images/icons/printer.png to archive (source: <root>/templates/gk_coolfoto/images/icons/printer.png)
+DEBUG   |131030 01:59:38|-- Adding templates/gk_coolfoto/images/icons/report.png to archive (source: <root>/templates/gk_coolfoto/images/icons/report.png)
+DEBUG   |131030 01:59:39|-- Adding templates/gk_coolfoto/images/icons/script.png to archive (source: <root>/templates/gk_coolfoto/images/icons/script.png)
+DEBUG   |131030 01:59:39|-- Adding templates/gk_coolfoto/images/icons/time.png to archive (source: <root>/templates/gk_coolfoto/images/icons/time.png)
+DEBUG   |131030 01:59:39|-- Adding templates/gk_coolfoto/images/icons/tips.gif to archive (source: <root>/templates/gk_coolfoto/images/icons/tips.gif)
+DEBUG   |131030 01:59:39|-- Adding templates/gk_coolfoto/images/icons/user.png to archive (source: <root>/templates/gk_coolfoto/images/icons/user.png)
+DEBUG   |131030 01:59:39|-- Adding templates/gk_coolfoto/images/icons/warning.gif to archive (source: <root>/templates/gk_coolfoto/images/icons/warning.gif)
+DEBUG   |131030 01:59:40|-- Adding templates/gk_coolfoto/images/icons/webcam.gif to archive (source: <root>/templates/gk_coolfoto/images/icons/webcam.gif)
+DEBUG   |131030 01:59:40|-- Adding templates/gk_coolfoto/images/icons/world.png to archive (source: <root>/templates/gk_coolfoto/images/icons/world.png)
+INFO    |131030 01:59:40|Scanning directories of <root>/templates/gk_coolfoto/html
+INFO    |131030 01:59:40|Scanning files of <root>/templates/gk_coolfoto/html
+DEBUG   |131030 01:59:40|Packing files
+DEBUG   |131030 01:59:40|-- Adding templates/gk_coolfoto/html/index.html to archive (source: <root>/templates/gk_coolfoto/html/index.html)
+DEBUG   |131030 01:59:40|-- Adding templates/gk_coolfoto/html/modules.php to archive (source: <root>/templates/gk_coolfoto/html/modules.php)
+DEBUG   |131030 01:59:40|-- Adding templates/gk_coolfoto/html/pagination.php to archive (source: <root>/templates/gk_coolfoto/html/pagination.php)
+INFO    |131030 01:59:40|Scanning directories of <root>/templates/gk_coolfoto/html/mod_search
+INFO    |131030 01:59:40|Scanning files of <root>/templates/gk_coolfoto/html/mod_search
+DEBUG   |131030 01:59:40|Packing files
+DEBUG   |131030 01:59:40|-- Adding templates/gk_coolfoto/html/mod_search/default.php to archive (source: <root>/templates/gk_coolfoto/html/mod_search/default.php)
+DEBUG   |131030 01:59:40|-- Adding templates/gk_coolfoto/html/mod_search/index.html to archive (source: <root>/templates/gk_coolfoto/html/mod_search/index.html)
+INFO    |131030 01:59:40|Scanning directories of <root>/templates/gk_coolfoto/html/mod_mainmenu
+INFO    |131030 01:59:40|Scanning files of <root>/templates/gk_coolfoto/html/mod_mainmenu
+DEBUG   |131030 01:59:40|Packing files
+DEBUG   |131030 01:59:40|-- Adding templates/gk_coolfoto/html/mod_mainmenu/default.php to archive (source: <root>/templates/gk_coolfoto/html/mod_mainmenu/default.php)
+DEBUG   |131030 01:59:40|-- Adding templates/gk_coolfoto/html/mod_mainmenu/index.html to archive (source: <root>/templates/gk_coolfoto/html/mod_mainmenu/index.html)
+INFO    |131030 01:59:41|Scanning directories of <root>/templates/gk_coolfoto/html/mod_login
+INFO    |131030 01:59:41|Scanning files of <root>/templates/gk_coolfoto/html/mod_login
+DEBUG   |131030 01:59:41|Packing files
+DEBUG   |131030 01:59:41|-- Adding templates/gk_coolfoto/html/mod_login/default.php to archive (source: <root>/templates/gk_coolfoto/html/mod_login/default.php)
+DEBUG   |131030 01:59:41|-- Adding templates/gk_coolfoto/html/mod_login/index.html to archive (source: <root>/templates/gk_coolfoto/html/mod_login/index.html)
+INFO    |131030 01:59:41|Scanning directories of <root>/templates/gk_coolfoto/html/mod_gk_image_show
+INFO    |131030 01:59:41|Scanning files of <root>/templates/gk_coolfoto/html/mod_gk_image_show
+DEBUG   |131030 01:59:41|Packing files
+DEBUG   |131030 01:59:41|-- Adding templates/gk_coolfoto/html/mod_gk_image_show/class.php to archive (source: <root>/templates/gk_coolfoto/html/mod_gk_image_show/class.php)
+DEBUG   |131030 01:59:41|-- Adding templates/gk_coolfoto/html/mod_gk_image_show/content.php to archive (source: <root>/templates/gk_coolfoto/html/mod_gk_image_show/content.php)
+DEBUG   |131030 01:59:41|-- Adding templates/gk_coolfoto/html/mod_gk_image_show/default.php to archive (source: <root>/templates/gk_coolfoto/html/mod_gk_image_show/default.php)
+DEBUG   |131030 01:59:41|-- Adding templates/gk_coolfoto/html/mod_gk_image_show/index.html to archive (source: <root>/templates/gk_coolfoto/html/mod_gk_image_show/index.html)
+DEBUG   |131030 01:59:41|-- Adding templates/gk_coolfoto/html/mod_gk_image_show/template.php to archive (source: <root>/templates/gk_coolfoto/html/mod_gk_image_show/template.php)
+INFO    |131030 01:59:41|Scanning directories of <root>/templates/gk_coolfoto/html/mod_breadcrumbs
+INFO    |131030 01:59:41|Scanning files of <root>/templates/gk_coolfoto/html/mod_breadcrumbs
+DEBUG   |131030 01:59:41|Packing files
+DEBUG   |131030 01:59:41|-- Adding templates/gk_coolfoto/html/mod_breadcrumbs/default.php to archive (source: <root>/templates/gk_coolfoto/html/mod_breadcrumbs/default.php)
+DEBUG   |131030 01:59:42|-- Adding templates/gk_coolfoto/html/mod_breadcrumbs/index.html to archive (source: <root>/templates/gk_coolfoto/html/mod_breadcrumbs/index.html)
+INFO    |131030 01:59:42|Scanning directories of <root>/templates/gk_coolfoto/html/mod_banners
+INFO    |131030 01:59:42|Scanning files of <root>/templates/gk_coolfoto/html/mod_banners
+DEBUG   |131030 01:59:42|Packing files
+DEBUG   |131030 01:59:42|-- Adding templates/gk_coolfoto/html/mod_banners/helper.php to archive (source: <root>/templates/gk_coolfoto/html/mod_banners/helper.php)
+DEBUG   |131030 01:59:43|-- Adding templates/gk_coolfoto/html/mod_banners/index.html to archive (source: <root>/templates/gk_coolfoto/html/mod_banners/index.html)
+INFO    |131030 01:59:43|Scanning directories of <root>/templates/gk_coolfoto/css
+INFO    |131030 01:59:43|Scanning files of <root>/templates/gk_coolfoto/css
+DEBUG   |131030 01:59:43|Packing files
+DEBUG   |131030 01:59:43|-- Adding templates/gk_coolfoto/css/editor_content.css to archive (source: <root>/templates/gk_coolfoto/css/editor_content.css)
+INFO    |131030 01:59:43|Proactive step break - file: <root>/templates/gk_coolfoto/css/gk_stuff.css - size: 13517 - req. time 58.51
+DEBUG   |131030 01:59:43|----- Finished operation 1 ------
+DEBUG   |131030 01:59:43|Successful Smart algorithm on AECoreDomainPack
+DEBUG   |131030 01:59:43|====== Finished Step number 4 ======
+DEBUG   |131030 01:59:43|*** Engine steps batching: Break flag detected.
+DEBUG   |131030 01:59:43|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |131030 01:59:43|No need to sleep; execution time: 20859.983921051 msec; min. exec. time: 2000 msec
+DEBUG   |131030 01:59:43|Saving Kettenrad instance lazy
+DEBUG   |131030 01:59:43|Closing SQL dump file.
+DEBUG   |131030 02:00:06| -- Loaded stored Akeeba Factory (lazy)
+DEBUG   |131030 02:00:06|====== Starting Step number 5 ======
+DEBUG   |131030 02:00:06|Packing files
+DEBUG   |131030 02:00:06|-- Adding templates/gk_coolfoto/css/gk_stuff.css to archive (source: <root>/templates/gk_coolfoto/css/gk_stuff.css)
+DEBUG   |131030 02:00:06|-- Adding templates/gk_coolfoto/css/ie6_css.css to archive (source: <root>/templates/gk_coolfoto/css/ie6_css.css)
+DEBUG   |131030 02:00:07|-- Adding templates/gk_coolfoto/css/ie7_css.css to archive (source: <root>/templates/gk_coolfoto/css/ie7_css.css)
+DEBUG   |131030 02:00:07|-- Adding templates/gk_coolfoto/css/index.html to archive (source: <root>/templates/gk_coolfoto/css/index.html)
+DEBUG   |131030 02:00:07|-- Adding templates/gk_coolfoto/css/joomla_classes.css to archive (source: <root>/templates/gk_coolfoto/css/joomla_classes.css)
+DEBUG   |131030 02:00:08|-- Adding templates/gk_coolfoto/css/style1.css to archive (source: <root>/templates/gk_coolfoto/css/style1.css)
+DEBUG   |131030 02:00:08|-- Adding templates/gk_coolfoto/css/style2.css to archive (source: <root>/templates/gk_coolfoto/css/style2.css)
+DEBUG   |131030 02:00:08|-- Adding templates/gk_coolfoto/css/suckerfish.css to archive (source: <root>/templates/gk_coolfoto/css/suckerfish.css)
+DEBUG   |131030 02:00:08|-- Adding templates/gk_coolfoto/css/template_css.css to archive (source: <root>/templates/gk_coolfoto/css/template_css.css)
+DEBUG   |131030 02:00:08|-- Adding templates/gk_coolfoto/css/typography.css to archive (source: <root>/templates/gk_coolfoto/css/typography.css)
+INFO    |131030 02:00:08|Scanning directories of <root>/templates/beez
+INFO    |131030 02:00:08|Scanning files of <root>/templates/beez
+DEBUG   |131030 02:00:08|Packing files
+DEBUG   |131030 02:00:08|-- Adding templates/beez/component.php to archive (source: <root>/templates/beez/component.php)
+DEBUG   |131030 02:00:08|-- Adding templates/beez/index.php to archive (source: <root>/templates/beez/index.php)
+INFO    |131030 02:00:08|Scanning directories of <root>/templates/beez/html
+INFO    |131030 02:00:08|Scanning files of <root>/templates/beez/html
+DEBUG   |131030 02:00:08|Packing files
+DEBUG   |131030 02:00:08|-- Adding templates/beez/html/pagination.php to archive (source: <root>/templates/beez/html/pagination.php)
+INFO    |131030 02:00:08|Scanning directories of <root>/templates/beez/html/mod_search
+INFO    |131030 02:00:08|Scanning files of <root>/templates/beez/html/mod_search
+DEBUG   |131030 02:00:08|Packing files
+DEBUG   |131030 02:00:08|-- Adding templates/beez/html/mod_search/default.php to archive (source: <root>/templates/beez/html/mod_search/default.php)
+INFO    |131030 02:00:08|Scanning directories of <root>/templates/beez/html/com_user
+INFO    |131030 02:00:08|Scanning files of <root>/templates/beez/html/com_user
+DEBUG   |131030 02:00:08|-- Adding templates/beez/html/com_user to archive (source: <root>/templates/beez/html/com_user)
+INFO    |131030 02:00:08|Empty directory <root>/templates/beez/html/com_user
+INFO    |131030 02:00:08|Scanning directories of <root>/templates/beez/html/com_user/reset
+INFO    |131030 02:00:08|Scanning files of <root>/templates/beez/html/com_user/reset
+DEBUG   |131030 02:00:08|Packing files
+DEBUG   |131030 02:00:08|-- Adding templates/beez/html/com_user/reset/confirm.php to archive (source: <root>/templates/beez/html/com_user/reset/confirm.php)
+INFO    |131030 02:00:09|Scanning directories of <root>/templates/beez/css
+INFO    |131030 02:00:09|Scanning files of <root>/templates/beez/css
+DEBUG   |131030 02:00:09|Packing files
+DEBUG   |131030 02:00:09|-- Adding templates/beez/css/general.css to archive (source: <root>/templates/beez/css/general.css)
+DEBUG   |131030 02:00:09|-- Adding templates/beez/css/ie7only.css to archive (source: <root>/templates/beez/css/ie7only.css)
+DEBUG   |131030 02:00:09|-- Adding templates/beez/css/ieonly.css to archive (source: <root>/templates/beez/css/ieonly.css)
+DEBUG   |131030 02:00:09|-- Adding templates/beez/css/layout.css to archive (source: <root>/templates/beez/css/layout.css)
+DEBUG   |131030 02:00:09|-- Adding templates/beez/css/position.css to archive (source: <root>/templates/beez/css/position.css)
+DEBUG   |131030 02:00:09|-- Adding templates/beez/css/print.css to archive (source: <root>/templates/beez/css/print.css)
+DEBUG   |131030 02:00:09|-- Adding templates/beez/css/template.css to archive (source: <root>/templates/beez/css/template.css)
+DEBUG   |131030 02:00:09|-- Adding templates/beez/css/template_rtl.css to archive (source: <root>/templates/beez/css/template_rtl.css)
+INFO    |131030 02:00:09|Scanning directories of <root>/plugins
+INFO    |131030 02:00:09|Scanning files of <root>/plugins
+DEBUG   |131030 02:00:09|Packing files
+DEBUG   |131030 02:00:09|-- Adding plugins/index.html to archive (source: <root>/plugins/index.html)
+INFO    |131030 02:00:09|Scanning directories of <root>/plugins/xmlrpc
+INFO    |131030 02:00:09|Scanning files of <root>/plugins/xmlrpc
+DEBUG   |131030 02:00:09|Packing files
+DEBUG   |131030 02:00:09|-- Adding plugins/xmlrpc/blogger.php to archive (source: <root>/plugins/xmlrpc/blogger.php)
+DEBUG   |131030 02:00:09|-- Adding plugins/xmlrpc/blogger.xml to archive (source: <root>/plugins/xmlrpc/blogger.xml)
+DEBUG   |131030 02:00:09|-- Adding plugins/xmlrpc/index.html to archive (source: <root>/plugins/xmlrpc/index.html)
+DEBUG   |131030 02:00:09|-- Adding plugins/xmlrpc/joomla.php to archive (source: <root>/plugins/xmlrpc/joomla.php)
+DEBUG   |131030 02:00:09|-- Adding plugins/xmlrpc/joomla.xml to archive (source: <root>/plugins/xmlrpc/joomla.xml)
+INFO    |131030 02:00:09|Scanning directories of <root>/plugins/user
+INFO    |131030 02:00:09|Scanning files of <root>/plugins/user
+DEBUG   |131030 02:00:09|Packing files
+DEBUG   |131030 02:00:09|-- Adding plugins/user/example.php to archive (source: <root>/plugins/user/example.php)
+DEBUG   |131030 02:00:09|-- Adding plugins/user/example.xml to archive (source: <root>/plugins/user/example.xml)
+DEBUG   |131030 02:00:09|-- Adding plugins/user/index.html to archive (source: <root>/plugins/user/index.html)
+DEBUG   |131030 02:00:09|-- Adding plugins/user/joomla.php to archive (source: <root>/plugins/user/joomla.php)
+DEBUG   |131030 02:00:09|-- Adding plugins/user/joomla.xml to archive (source: <root>/plugins/user/joomla.xml)
+INFO    |131030 02:00:09|Scanning directories of <root>/plugins/tmp
+INFO    |131030 02:00:09|Scanning files of <root>/plugins/tmp
+DEBUG   |131030 02:00:09|Packing files
+DEBUG   |131030 02:00:09|-- Adding plugins/tmp/index.html to archive (source: <root>/plugins/tmp/index.html)
+INFO    |131030 02:00:09|Scanning directories of <root>/plugins/system
+INFO    |131030 02:00:09|Scanning files of <root>/plugins/system
+DEBUG   |131030 02:00:09|Packing files
+DEBUG   |131030 02:00:09|-- Adding plugins/system/aklazy.php to archive (source: <root>/plugins/system/aklazy.php)
+DEBUG   |131030 02:00:09|-- Adding plugins/system/aklazy.xml to archive (source: <root>/plugins/system/aklazy.xml)
+DEBUG   |131030 02:00:09|-- Adding plugins/system/backlink.php to archive (source: <root>/plugins/system/backlink.php)
+DEBUG   |131030 02:00:09|-- Adding plugins/system/backlink.xml to archive (source: <root>/plugins/system/backlink.xml)
+DEBUG   |131030 02:00:09|-- Adding plugins/system/cache.php to archive (source: <root>/plugins/system/cache.php)
+DEBUG   |131030 02:00:09|-- Adding plugins/system/cache.xml to archive (source: <root>/plugins/system/cache.xml)
+DEBUG   |131030 02:00:10|-- Adding plugins/system/debug.php to archive (source: <root>/plugins/system/debug.php)
+DEBUG   |131030 02:00:10|-- Adding plugins/system/debug.xml to archive (source: <root>/plugins/system/debug.xml)
+DEBUG   |131030 02:00:10|-- Adding plugins/system/index.html to archive (source: <root>/plugins/system/index.html)
+DEBUG   |131030 02:00:10|-- Adding plugins/system/legacy.php to archive (source: <root>/plugins/system/legacy.php)
+DEBUG   |131030 02:00:10|-- Adding plugins/system/legacy.xml to archive (source: <root>/plugins/system/legacy.xml)
+DEBUG   |131030 02:00:10|-- Adding plugins/system/log.php to archive (source: <root>/plugins/system/log.php)
+DEBUG   |131030 02:00:10|-- Adding plugins/system/log.xml to archive (source: <root>/plugins/system/log.xml)
+DEBUG   |131030 02:00:10|-- Adding plugins/system/mtupgrade.php to archive (source: <root>/plugins/system/mtupgrade.php)
+DEBUG   |131030 02:00:10|-- Adding plugins/system/mtupgrade.xml to archive (source: <root>/plugins/system/mtupgrade.xml)
+DEBUG   |131030 02:00:10|-- Adding plugins/system/remember.php to archive (source: <root>/plugins/system/remember.php)
+DEBUG   |131030 02:00:10|-- Adding plugins/system/remember.xml to archive (source: <root>/plugins/system/remember.xml)
+DEBUG   |131030 02:00:10|-- Adding plugins/system/sef.php to archive (source: <root>/plugins/system/sef.php)
+DEBUG   |131030 02:00:10|-- Adding plugins/system/sef.xml to archive (source: <root>/plugins/system/sef.xml)
+INFO    |131030 02:00:10|Scanning directories of <root>/plugins/system/mtupgrade
+INFO    |131030 02:00:10|Scanning files of <root>/plugins/system/mtupgrade
+DEBUG   |131030 02:00:10|Packing files
+DEBUG   |131030 02:00:10|-- Adding plugins/system/mtupgrade/behavior.php to archive (source: <root>/plugins/system/mtupgrade/behavior.php)
+DEBUG   |131030 02:00:11|-- Adding plugins/system/mtupgrade/index.html to archive (source: <root>/plugins/system/mtupgrade/index.html)
+DEBUG   |131030 02:00:11|-- Adding plugins/system/mtupgrade/mootools-uncompressed.js to archive (source: <root>/plugins/system/mtupgrade/mootools-uncompressed.js)
+DEBUG   |131030 02:00:11|-- Adding plugins/system/mtupgrade/mootools.js to archive (source: <root>/plugins/system/mtupgrade/mootools.js)
+INFO    |131030 02:00:11|Scanning directories of <root>/plugins/system/legacy
+INFO    |131030 02:00:11|Scanning files of <root>/plugins/system/legacy
+DEBUG   |131030 02:00:11|Packing files
+DEBUG   |131030 02:00:11|-- Adding plugins/system/legacy/adminmenus.php to archive (source: <root>/plugins/system/legacy/adminmenus.php)
+DEBUG   |131030 02:00:11|-- Adding plugins/system/legacy/cache.php to archive (source: <root>/plugins/system/legacy/cache.php)
+DEBUG   |131030 02:00:11|-- Adding plugins/system/legacy/category.php to archive (source: <root>/plugins/system/legacy/category.php)
+DEBUG   |131030 02:00:12|-- Adding plugins/system/legacy/classes.php to archive (source: <root>/plugins/system/legacy/classes.php)
+DEBUG   |131030 02:00:12|-- Adding plugins/system/legacy/commonhtml.php to archive (source: <root>/plugins/system/legacy/commonhtml.php)
+DEBUG   |131030 02:00:12|-- Adding plugins/system/legacy/component.php to archive (source: <root>/plugins/system/legacy/component.php)
+DEBUG   |131030 02:00:12|-- Adding plugins/system/legacy/content.php to archive (source: <root>/plugins/system/legacy/content.php)
+DEBUG   |131030 02:00:12|-- Adding plugins/system/legacy/dbtable.php to archive (source: <root>/plugins/system/legacy/dbtable.php)
+DEBUG   |131030 02:00:12|-- Adding plugins/system/legacy/functions.php to archive (source: <root>/plugins/system/legacy/functions.php)
+DEBUG   |131030 02:00:12|-- Adding plugins/system/legacy/html.php to archive (source: <root>/plugins/system/legacy/html.php)
+DEBUG   |131030 02:00:12|-- Adding plugins/system/legacy/index.html to archive (source: <root>/plugins/system/legacy/index.html)
+DEBUG   |131030 02:00:12|-- Adding plugins/system/legacy/installer.php to archive (source: <root>/plugins/system/legacy/installer.php)
+DEBUG   |131030 02:00:12|-- Adding plugins/system/legacy/mainframe.php to archive (source: <root>/plugins/system/legacy/mainframe.php)
+DEBUG   |131030 02:00:12|-- Adding plugins/system/legacy/mambot.php to archive (source: <root>/plugins/system/legacy/mambot.php)
+DEBUG   |131030 02:00:12|-- Adding plugins/system/legacy/mambothandler.php to archive (source: <root>/plugins/system/legacy/mambothandler.php)
+DEBUG   |131030 02:00:12|-- Adding plugins/system/legacy/menu.php to archive (source: <root>/plugins/system/legacy/menu.php)
+DEBUG   |131030 02:00:13|-- Adding plugins/system/legacy/menubar.php to archive (source: <root>/plugins/system/legacy/menubar.php)
+DEBUG   |131030 02:00:13|-- Adding plugins/system/legacy/module.php to archive (source: <root>/plugins/system/legacy/module.php)
+DEBUG   |131030 02:00:13|-- Adding plugins/system/legacy/mysql.php to archive (source: <root>/plugins/system/legacy/mysql.php)
+DEBUG   |131030 02:00:13|-- Adding plugins/system/legacy/mysqli.php to archive (source: <root>/plugins/system/legacy/mysqli.php)
+DEBUG   |131030 02:00:13|-- Adding plugins/system/legacy/pagination.php to archive (source: <root>/plugins/system/legacy/pagination.php)
+DEBUG   |131030 02:00:13|-- Adding plugins/system/legacy/parameters.php to archive (source: <root>/plugins/system/legacy/parameters.php)
+DEBUG   |131030 02:00:14|-- Adding plugins/system/legacy/patfactory.php to archive (source: <root>/plugins/system/legacy/patfactory.php)
+DEBUG   |131030 02:00:14|-- Adding plugins/system/legacy/profiler.php to archive (source: <root>/plugins/system/legacy/profiler.php)
+DEBUG   |131030 02:00:14|-- Adding plugins/system/legacy/section.php to archive (source: <root>/plugins/system/legacy/section.php)
+DEBUG   |131030 02:00:14|-- Adding plugins/system/legacy/session.php to archive (source: <root>/plugins/system/legacy/session.php)
+DEBUG   |131030 02:00:14|-- Adding plugins/system/legacy/toolbar.php to archive (source: <root>/plugins/system/legacy/toolbar.php)
+DEBUG   |131030 02:00:14|-- Adding plugins/system/legacy/user.php to archive (source: <root>/plugins/system/legacy/user.php)
+INFO    |131030 02:00:14|Scanning directories of <root>/plugins/system/aklazy
+INFO    |131030 02:00:14|Scanning files of <root>/plugins/system/aklazy
+DEBUG   |131030 02:00:14|Packing files
+DEBUG   |131030 02:00:14|-- Adding plugins/system/aklazy/index.htm to archive (source: <root>/plugins/system/aklazy/index.htm)
+INFO    |131030 02:00:14|Proactive step break - file: <root>/plugins/system/aklazy/main.php - size: 18983 - req. time 100.22
+DEBUG   |131030 02:00:14|----- Finished operation 1 ------
+DEBUG   |131030 02:00:14|Successful Smart algorithm on AECoreDomainPack
+DEBUG   |131030 02:00:14|====== Finished Step number 5 ======
+DEBUG   |131030 02:00:14|*** Engine steps batching: Break flag detected.
+DEBUG   |131030 02:00:14|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |131030 02:00:14|No need to sleep; execution time: 7870.0461387634 msec; min. exec. time: 2000 msec
+DEBUG   |131030 02:00:14|Saving Kettenrad instance lazy
+DEBUG   |131030 02:00:14|Closing SQL dump file.

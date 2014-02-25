@@ -1,0 +1,257 @@
+/*--------------------------------------------------------------
+# Coolfoto - June 2009 (for Joomla 1.5)
+# Copyright (C) 2007-2009 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com  
+---------------------------------------------------------------*/
+
+/* Typography 
+---------------------------------------------------------------*/
+/* Code */
+pre,
+.code1,
+.code2{
+	margin:10px 0 15px;
+	padding:10px 15px;
+	font-size:11px;
+}
+.code2{
+	padding-left:20px;
+}
+.code3{
+	padding:0 0 5px 20px;
+	background:none;
+}
+.code3 h4{
+	width:35px;
+	position:relative;
+	top:-10px;
+	margin:0 0 -10px 11px;
+	padding:0 5px;
+	font-size:14px;
+	font-weight:normal;
+}
+
+/* Warnings */
+
+p.info1,p.info3,p.warning1,p.warning3,p.tips1,p.tips3{padding-left:30px;}
+
+p.info2,
+p.info4{
+	padding:3px 3px 3px 30px;
+}
+p.info3,
+p.info4{
+	min-height:14px;
+	padding:12px 0 14px 30px;
+}
+p.warning2,
+p.warning4{
+	padding:3px 3px 3px 30px;
+}
+p.warning3,
+p.warning4{
+	min-height:14px;
+	width:auto;
+	padding:12px 0 14px 30px;
+}
+p.tips2,
+p.tips4{
+	padding:3px 3px 3px 30px;
+	background-position:3px center;
+}
+p.tips3,
+p.tips4{
+	display:block;
+	min-height:14px;
+	padding:12px 0 14px 30px;
+}
+
+/* Headers */
+
+h1,h2,h3,h4{margin:25px 0 15px 0;}
+
+/* Dropcaps */
+
+span.Dropcap1,
+span.Dropcap2,
+span.Dropcap3{
+	font-size: 60px;
+	display: block;
+	float: left;
+	font-family:'Times New Roman', serif;
+}
+span.Dropcap1{
+	height:61px;
+	margin:16px 5px -30px 0;
+}
+span.Dropcap2{
+	margin:16px 5px -9px 0;
+	padding-bottom:58px ;
+}
+span.Dropcap3{
+	height:61px;
+	margin:0 5px -30px 0;
+}
+p.Dropcap3{margin-top:32px;}
+
+/* Blockquotes */
+
+blockquote{
+	font-style:italic;
+	margin:20px 0;
+	float:left;
+}
+blockquote div.blockquote1 div{
+	padding:0 17px;
+}
+blockquote div.blockquote2 div{
+	padding:0 17px;
+}
+blockquote div.blockquote3{
+	padding-bottom:5px;
+}
+blockquote div.blockquote3 div{
+	padding:5px 27px 0 27px;
+}
+blockquote div.blockquote4{
+	padding-top:2px;
+}
+blockquote div.blockquote4 div{
+	padding:5px 27px 0 27px;
+}
+/* Floated blocks */
+.blockTextLeft,
+.blockTextRight,
+.blockTextCenter{
+	display:block;
+	width:30%;
+	padding:15px;
+	font-style:italic;
+}
+.blockTextLeft{
+	float:left;
+	text-align:left;
+}
+.blockTextRight{
+	float:right;
+	text-align:right;
+}
+.blockTextCenter{
+	margin:0 auto;
+	text-align:center;
+}
+/* Legends */
+div.legend1 h4,
+div.legend2 h4,
+div.legend3 h4,
+div.legend4 h4,
+div.legend5 h4,
+div.legend6 h4{
+	width:50px;
+	position:relative;
+	top:-9px;
+	left:11px;
+	margin:0 0 -9px 0;
+	padding:0 3px;
+	font-size:14px;
+	font-weight:normal;
+}
+div.legend1,
+div.legend5,
+div.legend6{
+	margin:25px 0;
+}
+div.legend2,
+div.legend3,
+div.legend4{
+	margin:25px 0;	
+}
+div.legend1 p,
+div.legend2 p,
+div.legend3 p,
+div.legend4 p,
+div.legend5 p,
+div.legend6 p{
+	margin:7px;
+}
+/* icons */
+.audio,.creditcard,.email,.feed,.help,.webcam,.images,.lock,.printer,.report,.script,.time,.user,.world,.camera,.brick,.box,
+.cart,.cd,.chart_bar,.chart_line,.chart_pie,.clock,.cog,.coins,.compress,.computer,.cross,.disk,.error,.accept,.add,.calendar,
+.exclamation,.film,.folder,.group,.heart,.house,.image,.information,.magnifier,.money,.new,.note,.page,.page_white,.plugin{
+	padding:0 0 2px 30px;
+}
+/* Highlights */
+.highlight-1,
+.highlight-2,
+.highlight-3,
+.highlight-4{
+	padding:1px 5px;
+}
+/* Colors for spans */
+span.clear,
+span.clear-1,
+span.clear-2,
+span.color,
+span.color-1,
+span.color-2,
+span.color-3,
+span.color-4,
+span.color-5,
+span.color-6,
+span.color-7{
+	display: block;
+	padding: 5px 10px;
+	margin-bottom: 10px;
+}
+/* ordered lists */
+ol{margin-left:18px;}
+ol.dec{list-style-type:decimal;}
+ol.roman{list-style-type:upper-roman;}
+ol.alpha{list-style-type:lower-alpha;}
+ol.decimalLeadingZero{list-style-type:decimal-leading-zero;}
+/*unordered lists*/
+ul.circle1 li,ul.circle2 li,
+ul.bullet1 li,ul.bullet2 li,ul.bullet3 li,ul.bullet4 li,
+ul.square1 li,ul.square2 li,ul.square3 li{
+	padding-left:0!important;
+	background:none!important;
+}
+/* Numbers */
+div.number1 span{
+	padding:4px;
+	margin-right:10px;
+}
+div.number2 span{
+	padding:4px;
+	margin-right:10px;
+}
+/* Definition lists */
+dl.def1 dt,
+dl.def2 dt,
+dl.def3 dt{
+	margin:10px 0 5px 0;
+}
+dl.def1 dd,
+dl.def2 dd,
+dl.def3 dd{
+	padding-left:25px;
+}
+dl.def2 dt{
+	text-decoration:underline;
+}
+dl.def3 dt{
+	font-weight:bold;
+}
+/* acronyms and abbrs */
+acronym,
+abbr{
+	border-bottom-width:1px;
+	border-bottom-style:dotted;
+}
+acronym:hover,
+abbr:hover{
+	border-bottom-style:solid;
+	cursor:pointer;
+}
